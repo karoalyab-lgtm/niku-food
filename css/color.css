@@ -1,0 +1,27 @@
+/************************************BACKGROUND COLOR START*************************************/
+/* .head-top, .head-top .right-side .dropdown-menu, .team-box:hover .text-col, .footer-section-2, .product-detail .nav > li > a:hover, .product-detail .nav > li > a:focus, .product-detail .nav-tabs > li.active > a, .product-detail .nav-tabs > li.active > a:hover, .product-detail .nav-tabs > li.active > a:focus, .outlet-detail .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .outlet-detail .mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .gallery-section a.load:hover, #nav li ul li a:before {
+	background-color:#900000;
+} */
+/************************************BACKGROUND COLOR END*************************************/
+
+/***********************************************TEXT COLOR START************************************************/
+/* .head-top .right-side button, #banner .caption h1 span, #nav li.active ul li a, .head-row-2 .navbar-inverse .navbar-nav > .active > a, .head-row-2  .navbar-inverse .navbar-nav > .active > a:hover, .head-row-2  .navbar-inverse .navbar-nav > .active > a:focus, strong.subheading, .team-box .text-col h3, .team-social li a:hover, .team-box:hover .team-social li a:hover, .title-box strong.title, .footer-social li a:hover, .footer-menu ul li a:hover, #inner-banner h1 span, .coming-soon h1 span, .outlet-box:hover a.loaction, .outlet-detail .nav-tabs > li > a, .outlet-detail strong.email a, #filter li a:hover , #filter .current, #filter li a.selected, .rate-list .text-col ul li:hover{
+	color:#900000;
+} */
+/***********************************************TEXT COLOR END************************************************/
+
+
+
+/************************************BUTTON COLOR START*************************************/
+a.btn-style-1, .footer-box form input[type="submit"], .newsletter form input[type="submit"]:hover{
+	background-color:#900000;
+}
+/************************************BUTTON COLOR END*************************************/
+
+
+
+/************************************BORDER COLOR START*************************************/
+/* .rate-list .left-box, .team-social, .team-social li a:hover, .number-box{
+	border-color:#900000;
+} */
+/************************************BORDER COLOR END*************************************/

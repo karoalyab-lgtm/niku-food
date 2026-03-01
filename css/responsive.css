@@ -1,0 +1,725 @@
+/*===========================================================================*/
+							/*1366px CSS*/
+/*===========================================================================*/
+@media (max-width: 1366px) {
+#banner .caption {
+	top: 250px;
+}
+.rate-list .left-box .thumb img {
+	width: 100%;
+}
+}
+
+/*===========================================================================*/
+							/*1280px CSS*/
+/*===========================================================================*/
+@media (max-width: 1280px) {
+#banner .caption {
+	top: 200px;
+}
+.rate-list .left-box .thumb img {
+	width: 100%;
+}
+}
+
+
+
+/*===========================================================================*/
+							/*767px CSS*/
+/*===========================================================================*/
+@media (max-width: 767px) {
+.head-top .left-side {
+	padding: 10px 0;
+	text-align: center;
+}
+.head-top .left-side a {
+	display: inline-block;
+	padding: 0 5px;
+}
+.head-top .right-side strong.time {
+	float: left;
+}
+.head-row-2 {
+	position: static;
+	background: #fff;
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+}
+strong.logo {
+	margin: 0;
+}
+.head-row-2 .navbar-inverse {
+	width: 100%;
+}
+.navbar-toggle {
+	margin: 0;
+}
+#nav {
+	margin: 30px 0 0 0;
+}
+#nav li {
+	display: block;
+}
+#nav li ul {
+	position: static;
+	width: 100%;
+}
+#banner .caption {
+	top: 50px;
+}
+#banner .caption img {
+	display: none;
+}
+#banner .caption h1 {
+	font-size: 70px;
+	line-height: 70px;
+}
+#banner .owl-theme .owl-controls .owl-nav [class*="owl-"] {
+	display: none !important;
+}
+.butcher-about, .product-section, .team-section {
+	padding: 50px 0;
+}
+.heading-space {
+	padding: 0;
+}
+.butcher-about .text-col:before, .butcher-about .text-col:after, .butcher-about:before, .butcher-about .thumb, .product-section:before, .product-section .product-box:before, .product-section .product-box:after {
+	display: none;
+}
+body h2 {
+	margin-bottom: 30px;
+}
+.rate-list .container-fluid {
+	padding: 0 15px;
+}
+.rate-list .left-box .thumb img {
+	width: 100%;
+}
+.rate-list .left-box {
+	padding: 15px;
+}
+.rate-list .text-col {
+	padding: 0;
+	margin: 30px 0 0 0;
+}
+.product-section .product-box .thumb img {
+	float: none;
+}
+.product-section .product-box .thumb {
+	text-align: center;
+}
+.parallax-section strong.title, .parallax-section strong.title-2 {
+	font-size: 80px;
+	line-height: 80px;
+}
+.parallax-section strong.title-2 {
+	padding-bottom: 20px;
+}
+.team-box {
+	margin-bottom: 30px;
+}
+.footer-box, .footer-menu {
+	margin-bottom: 40px;
+}
+.footer-section-1 {
+	padding: 30px 0 0 0;
+}
+#inner-banner {
+	padding: 60px 0;
+	margin-bottom: 40px;
+}
+#inner-banner h1 {
+	font-size: 70px;
+	line-height: 70px;
+}
+.about-text:before, .about-text:after, .text-style-1 .text-col:before, .text-style-1 .text-col:after {
+	display: none;
+}
+.text-style-1 {
+	padding: 0 0 40px 0;
+}
+.text-style-1 .text-col {
+	width: 100%;
+}
+.text-style-2 {
+	padding: 0;
+}
+.text-style-2 .thumb {
+	margin: 0 0 20px 0;
+}
+.text-style-2 .text-col:before, .text-style-2 .text-col:after {
+	display: none;
+}
+.text-style-2 .text-col {
+	width: 100%;
+}
+.outlets-section {
+	padding: 0;
+}
+.content {
+	margin-bottom: 40px;
+}
+.menu-section .thumb img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+.menu-section .thumb {
+	margin-bottom: 30px;
+}
+.menu-section {
+	padding-bottom: 30px;
+}
+#filter {
+	padding: 0;
+	margin-bottom: 40px;
+}
+#filter li a {
+	font-size: 14px;
+	line-height: 14px;
+}
+.coming-soon {
+	background-size: cover;
+	padding: 40px 0;
+}
+.coming-soon .countdown-section:before {
+	display: none;
+}
+.coming-soon strong.title {
+	padding-bottom: 50px;
+}
+#inner-banner strong.error-text {
+	background-size: 100%;
+	height: 295px;
+}
+.error-page {
+	margin: 0 0 40px 0;
+}
+.error-page strong.title {
+	font-size: 55px;
+	line-height: 60px;
+	padding: 0 0 10px 0;
+}
+.error-page p {
+	margin: 0 0 30px 0;
+}
+.contact-section .map_canvas {
+	height: 400px;
+}
+.contact-section {
+	margin: 0;
+}
+.number-box {
+	background-size: cover;
+	width: 100%;
+	position: static;
+}
+.number-box strong.number {
+	font-size: 36px;
+	line-height: 36px;
+}
+.gallery-metro-2 .isotope .item.height2, .gallery-metro-2 .isotope .item{
+	height:auto;
+}
+.gallery-metro-2 .isotope .item.width2, .gallery-metro-2 .isotope .item{
+	width:100%;
+}
+}
+
+
+/*===========================================================================*/
+							/*480px CSS*/
+/*===========================================================================*/
+@media (min-width: 320px) and (max-width: 766px) {
+.head-top .left-side {
+	padding: 12px 0;
+	text-align: center;
+}
+.gallery-metro-2 .isotope .item.height2, .gallery-metro-2 .isotope .item{
+	height:auto;
+}
+.gallery-metro-2 .isotope .item.width2, .gallery-metro-2 .isotope .item{
+	width:100%;
+}
+.contact-section .map_canvas {
+	height: 400px;
+}
+.contact-section {
+	margin: 0;
+}
+.number-box {
+	background-size: cover;
+	width: 100%;
+	position: static;
+}
+.number-box strong.number {
+	font-size: 36px;
+	line-height: 36px;
+}
+#inner-banner strong.error-text {
+	background-size: 100%;
+	height: 295px;
+}
+.error-page {
+	margin: 0 0 40px 0;
+}
+.error-page strong.title {
+	font-size: 55px;
+	line-height: 60px;
+	padding: 0 0 10px 0;
+}
+.error-page p {
+	margin: 0 0 30px 0;
+}
+.coming-soon {
+	background-size: cover;
+	padding: 50px 0;
+}
+.coming-soon .countdown-section:before {
+	display: none;
+}
+.coming-soon .countdown-section {
+	margin: 20px 0;
+}
+.coming-soon strong.title {
+	font-size: 45px;
+	line-height: 50px;
+	padding-bottom: 10px;
+}
+.coming-soon h1 {
+	font-size: 55px;
+	line-height: 60px;
+}
+.gallery-section .frame, .gallery-section .frame img {
+	width: 100%;
+}
+#filter {
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+#filter li {
+	padding: 3px 0;
+}
+.gallery-section .btn-row {
+	margin: 30px 0 0 0;
+}
+.gallery-section {
+	padding-bottom: 30px;
+}
+.menu-section .thumb {
+	margin-bottom: 20px;
+}
+.menu-section {
+	padding: 0 0 30px 0;
+}
+.menu-section .thumb img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+.content {
+	margin-bottom: 40px;
+}
+.outlet-box:before, .outlet-box:hover:before {
+	background-size: 100%;
+}
+.outlet-box a.loaction {
+	font-size: 38px;
+}
+.outlets-section {
+	padding: 0;
+}
+.product-detail .nav-tabs > li a {
+	font-size: 25px;
+	line-height: 25px;
+	color: #000;
+}
+.product-detail {
+	margin-bottom: 20px;
+}
+#inner-banner {
+	padding: 40px 0;
+	margin-bottom: 40px;
+}
+.text-style-1 .text-col, .text-style-2 .text-col {
+	width: 100%;
+}
+.text-style-1 .text-col:before, .text-style-1 .text-col:after, .text-style-2 .text-col:before, .text-style-2 .text-col:after, .team-bg-2:before {
+	display: none;
+}
+.text-style-2 .thumb {
+	margin-bottom: 20px;
+}
+strong.subheading {
+	font-size: 40px;
+}
+.team-section h2 {
+	font-size: 40px;
+}
+.text-style-1 {
+	padding-bottom: 40px;
+}
+.text-style-2 {
+	padding: 0;
+}
+#inner-banner h1 {
+	font-size: 35px;
+	line-height: 35px;
+}
+#inner-banner strong.title {
+	font-size: 20px;
+	line-height: 30px;
+}
+.head-top .left-side a {
+	display: inline-block;
+	padding: 5px 3px;
+}
+.head-row-2 {
+	float: left;
+	width: 100%;
+	position: static;
+	background: #ffffff;
+	padding: 15px 0;
+}
+strong.logo {
+	margin: 0;
+}
+.head-row-2 .navbar {
+	width: 100%;
+}
+.navbar-toggle {
+	margin-right: 0;
+}
+#nav {
+	margin: 10px 0 0 0;
+}
+#nav li {
+	display: block;
+}
+#nav li ul {
+	width: 100%;
+	position: static;
+}
+#nav li a, #nav li:last-child a {
+	padding: 0;
+}
+#nav li a {
+	color: #000 !important
+}
+#banner .caption {
+	top: 40px;
+}
+#banner .caption img {
+	display: none;
+}
+#banner .caption strong.title {
+	font-size: 20px;
+	line-height: 20px;
+	padding: 0;
+}
+#banner .caption h1 {
+	font-size: 30px;
+	line-height: 30px;
+}
+#banner .caption strong.title-2 {
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0 0 10px 0;
+}
+#banner .caption b {
+	font-size: 14px;
+	line-height: 14px;
+}
+#banner .owl-prev, #banner .owl-next, .butcher-about:before, .butcher-about .text-col:before, .butcher-about .text-col:after, .product-section:before, .product-section .product-box:before, .product-section .product-box:after {
+	display: none !important;
+}
+.butcher-about {
+	padding: 40px 0 0 0;
+}
+body h2 {
+	margin-bottom: 30px;
+}
+.butcher-about .text-col {
+	margin-bottom: 40px;
+}
+.rate-list .container-fluid {
+	padding: 0 15px;
+}
+.rate-list .left-box, .rate-list .text-col, .heading-space {
+	padding: 0;
+}
+.rate-list .left-box .thumb img, .newsletter form, .newsletter form input[type="text"] {
+	width: 100%;
+}
+.rate-list .text-col {
+	margin: 20px 0 0 0;
+}
+.rate-list .text-col ul {
+	width: 100%;
+	margin: 0;
+}
+.rate-list .text-col ul li {
+	background: none;
+}
+.product-section, .parallax-section, .team-section, .newsletter, .partnet-section {
+	padding: 40px 0;
+}
+.product-section .product-box, .team-box {
+	margin-bottom: 30px;
+}
+.parallax-section strong.title, .parallax-section strong.title-2 {
+	font-size: 28px;
+	line-height: 28px;
+}
+.parallax-section strong.title-2 {
+	padding: 0 0 20px 0;
+}
+.newsletter h2 {
+	font-size: 33px;
+}
+.newsletter form input[type="text"] {
+	margin: 0 0 15px 0;
+}
+.newsletter form input[type="submit"] {
+	float: right;
+}
+.partnet-section ul li {
+	padding: 20px 0;
+}
+.footer-section-1 {
+	padding: 30px 0 0 0;
+}
+.footer-box, .footer-menu {
+	margin-bottom: 30px;
+}
+.footer-section-2 strong.copyrights {
+	text-align: center;
+	line-height: 20px;
+}
+.head-top .right-side strong.time {
+	float: left;
+}
+}
+
+
+
+/*===========================================================================*/
+						/*768px And 992px CSS*/
+/*===========================================================================*/
+@media (min-width: 768px) and (max-width: 992px) {
+.head-top .left-side {
+	padding: 10px 0;
+	text-align: center;
+}
+.gallery-metro-2 .isotope .item.height2, .gallery-metro-2 .isotope .item{
+	height:auto;
+}
+.gallery-metro-2 .isotope .item.width2, .gallery-metro-2 .isotope .item{
+	width:100%;
+}
+.full-gallery{
+	padding:0;
+}
+.coming-soon .countdown-section:before {
+	display: none;
+}
+.number-box {
+	background-size: cover;
+	width: 100%;
+	position: static;
+}
+.number-box strong.number {
+	font-size: 85px;
+	line-height: 85px;
+}
+.contact-section .map_canvas {
+	height: 500px;
+}
+.error-page {
+	margin: 0 0 40px 0;
+}
+.error-page strong.title {
+	font-size: 55px;
+	line-height: 60px;
+	padding: 0 0 10px 0;
+}
+.error-page p {
+	margin: 0 0 30px 0;
+}
+#inner-banner strong.error-text {
+	background-size: 90%;
+}
+.coming-soon strong.title {
+	padding-bottom: 50px;
+}
+.coming-soon {
+	background-size: cover;
+	padding: 195px 0;
+}
+.outlets-section {
+	padding: 0;
+}
+.outlet-detail iframe {
+	height: 500px;
+}
+#filter {
+	padding: 0;
+	margin-bottom: 40px;
+}
+.product-detail .nav-tabs > li a {
+	font-size: 23px;
+	line-height: 23px;
+}
+.product-detail {
+	margin-bottom: 40px;
+}
+.head-top .left-side a {
+	display: inline-block;
+	padding: 0 20px;
+}
+#inner-banner {
+	padding: 200px 0 120px 0;
+	margin-bottom: 40px;
+}
+body h2 {
+	margin-bottom: 50px;
+}
+.text-style-1 .text-col:before, .text-style-1 .text-col:after, .text-style-2 .text-col:before, .text-style-2 .text-col:after {
+	display: none;
+}
+.text-style-1 {
+	padding: 0 0 40px 0;
+}
+.text-style-2 {
+	padding: 0;
+}
+.text-style-2 .thumb {
+	margin-bottom: 20px;
+}
+.head-top .right-side strong.time {
+	float: left;
+}
+/* .head-row-2 {
+	top: 85px;
+} */
+#nav li a {
+	font-size: 12px;
+	line-height: 12px;
+	padding: 0 6px;
+}
+#nav li ul {
+	left: inherit;
+	right: 0;
+}
+#banner .caption {
+	top: 144px;
+}
+#banner .caption img {
+	display: none;
+}
+.butcher-about .text-col:before, .butcher-about .text-col:after, .rate-list .left-box .thumb img, .rate-list .text-col ul {
+	width: 100%;
+}
+.rate-list .text-col ul li {
+	background: none;
+}
+.rate-list .container-fluid {
+	padding: 0 15px;
+}
+.product-section {
+	padding: 50px 0;
+}
+.parallax-section strong.title {
+	font-size: 68px;
+}
+.parallax-section strong.title-2 {
+	font-size: 96px;
+}
+.team-box .text-col {
+	padding: 25px 15px;
+}
+.team-box .text-col h3 {
+	font-size: 21px;
+	margin: 0 0 10px 0;
+}
+.team-section {
+	padding: 50px 0;
+}
+}
+
+
+
+
+
+/*===========================================================================*/
+							/*1199px CSS*/
+/*===========================================================================*/
+@media (min-width: 993px) and (max-width: 1199px) {
+#nav li a {
+	padding: 0 15px;
+}
+#banner .caption {
+	top: 90px;
+}
+.rate-list .left-box .thumb img, .rate-list .text-col ul {
+	width: 100%;
+	padding: 0 30px 0 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.rate-list .text-col strong.name, .rate-list .text-col strong.price {
+	font-size: 18px;
+	line-height: 18px;
+}
+.product-section {
+	padding: 50px 0;
+}
+#inner-banner {
+	padding: 200px 0 100px 0;
+	margin-bottom: 40px;
+}
+body h2 {
+	margin-bottom: 50px;
+}
+.text-style-1 {
+	padding: 0 0 50px 0;
+}
+.text-style-2 .text-col, .text-style-1 .text-col {
+	width: 450px;
+}
+.parallax-section strong.title {
+	font-size: 88px;
+}
+.coming-soon .countdown-section:before {
+	display: none;
+}
+.coming-soon {
+	background-size: cover;
+}
+.coming-soon .countdown-section {
+	width: 100px;
+}
+.error-page {
+	margin: 0 0 40px 0;
+}
+.number-box {
+	background-size: cover;
+	width: 100%;
+	position: static;
+}
+.number-box strong.number {
+	font-size: 85px;
+	line-height: 85px;
+}
+.contact-section .map_canvas {
+	height: 500px;
+}
+.gallery-metro-2 .isotope .item.width2{
+	width:66.5%;
+}
+.gallery-metro-2 .isotope .item{
+	height:215px;
+}
+}
