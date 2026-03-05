@@ -3,7 +3,7 @@
 /*===========================================================================*/
 @media (max-width: 1366px) {
 #banner .caption {
-	top: 250px;
+	top: 50%;
 }
 .rate-list .left-box .thumb img {
 	width: 100%;
@@ -15,7 +15,7 @@
 /*===========================================================================*/
 @media (max-width: 1280px) {
 #banner .caption {
-	top: 200px;
+	top: 50%;
 }
 .rate-list .left-box .thumb img {
 	width: 100%;
@@ -66,14 +66,14 @@ strong.logo {
 	width: 100%;
 }
 #banner .caption {
-	top: 50px;
+	top: 50%;
 }
 #banner .caption img {
 	display: none;
 }
 #banner .caption h1 {
-	font-size: 70px;
-	line-height: 70px;
+	font-size: 40px;
+	line-height: 50px;
 }
 #banner .owl-theme .owl-controls .owl-nav [class*="owl-"] {
 	display: none !important;
@@ -408,7 +408,7 @@ strong.logo {
 	color: #000 !important
 }
 #banner .caption {
-	top: 40px;
+	top: 50%;
 }
 #banner .caption img {
 	display: none;
@@ -613,7 +613,7 @@ body h2 {
 	right: 0;
 }
 #banner .caption {
-	top: 144px;
+	top: 50%;
 }
 #banner .caption img {
 	display: none;
@@ -660,7 +660,7 @@ body h2 {
 	padding: 0 15px;
 }
 #banner .caption {
-	top: 90px;
+	top: 50%;
 }
 .rate-list .left-box .thumb img, .rate-list .text-col ul {
 	width: 100%;

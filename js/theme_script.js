@@ -124,4 +124,33 @@ jQuery(document).ready(function ($) {
         }
     });
 
+    // Lógica para "Ver Detalle" en Productos
+    $('.view-detail').on('click', function() {
+        var $this = $(this);
+        var title = $this.data('title');
+        var desc = $this.data('desc');
+        var img = $this.data('img');
+        var origin = $this.data('origin');
+        
+        // Buscar el contenedor de detalle dentro de la misma pestaña activa
+        var $pane = $this.closest('.tab-pane');
+        var $detailBox = $pane.find('.product-list-box');
+        
+        // Actualizar contenido con efecto suave
+        $detailBox.hide().fadeIn(500);
+        $detailBox.find('.detail-title').text(title);
+        $detailBox.find('.detail-desc').text(desc);
+        $detailBox.find('.detail-img').attr('src', img);
+        $detailBox.find('.detail-origin').html('<strong>Origen:</strong> ' + origin);
+        
+        // Actualizar enlace de WhatsApp
+        var waText = "Me interesa cotizar " + title;
+        $detailBox.find('.detail-whatsapp').attr('href', 'https://wa.me/526677607282?text=' + encodeURIComponent(waText));
+
+        // Scroll suave hacia el detalle
+        $('html, body').animate({
+            scrollTop: $detailBox.offset().top - 150
+        }, 500);
+    });
+
 });
