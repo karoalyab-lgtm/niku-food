@@ -116,6 +116,7 @@ jQuery(document).ready(function ($) {
     }
 
     $(window).on('scroll', function () {
+        if ($('.head-row-2').hasClass('header-static')) return;
         if ($(window).scrollTop() > 50) {
             $('.head-row-2').addClass('head-row-2-scroll');
         } else {

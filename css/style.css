@@ -86,7 +86,7 @@ body h5,
 body h6 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	color: #777;
+	color: #000;
 	margin: 0;
 }
 
@@ -111,7 +111,7 @@ body h2 span {
 }
 
 body h3 {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 24px;
@@ -313,7 +313,7 @@ strong.logo {
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 50px;
+	margin-left: 20px;
 }
 
 .head-row-2 {
@@ -570,7 +570,6 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	animation: pulse-wa 2s infinite;
 }
 
-/* Ajuste para móviles (para que no tape el contenido) */
 @media (max-width: 767px) {
 	.whatsapp-float {
 		width: 50px;
@@ -599,7 +598,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	position: absolute;
 	left: 0;
 	top: 50%;
-    transform: translateY(-50%);
+	transform: translateY(-50%);
 	width: 100%;
 	height: 100%;
 	height: auto;
@@ -612,18 +611,18 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	margin: 0 auto 10px;
 }
 
-#banner .caption {
+/* #banner .caption {
 	text-align: center;
 	text-align: left;
-}
+} */
 
-#banner .caption span {
+/* #banner .caption span {
 	font: italic 700 50px/50px "Aller";
 	color: #ff0000;
 	display: block;
 	text-align: center;
 	margin: 0 0 10px 0;
-}
+} */
 
 #banner .caption h1 {
 	font: 700 60px/70px 'Aller', cursive;
@@ -680,6 +679,9 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 .banner-overlay {
 	/* position: relative; */
 	position: relative;
+	background-image: url(../images/fondo\ 3.png);
+	background-size: cover;
+	background-position: center;
 	width: 100%;
 	display: block;
 	height: 100vh;
@@ -712,27 +714,29 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 }
 
 
-.banner-overlay {
+/* .banner-overlay {
 	width: 100%;
-	/* height: 500px; */
-	/* Definimos la altura en el contenedor, no en la imagen */
 	overflow: hidden;
 	position: relative;
-}
+} */
 
-.banner-overlay img {
+/* .banner-overlay img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	/* Centra la parte más importante de la carne */
 	object-position: center;
 	display: block;
-}
+} */
 
 /* Ajuste para que en pantallas más pequeñas (como móviles) no sea tan alto */
 @media (max-width: 767px) {
 	.banner-overlay {
-		height: 300px;
+		background-position: left;
+	}
+
+	#banner .caption h1 {
+		float: left;
+		margin-bottom: 250px;
 	}
 }
 
@@ -743,13 +747,17 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 .butcher-about {
 	float: left;
 	width: 100%;
-	padding: 100px 0;
+	padding: 50px 0;
 	position: relative;
 	background-image: url('../images/black.jpg');
-	background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-	background-position: center; /* Centra la imagen */
-	background-repeat: no-repeat; /* Evita que la imagen se repita */
-	background-attachment: fixed; /* Opcional: fija la imagen al hacer scroll */
+	background-size: cover;
+	/* Ajusta la imagen para cubrir todo el fondo */
+	background-position: center;
+	/* Centra la imagen */
+	background-repeat: no-repeat;
+	/* Evita que la imagen se repita */
+	background-attachment: fixed;
+	/* Opcional: fija la imagen al hacer scroll */
 }
 
 /* .butcher-about:before {
@@ -895,13 +903,56 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 }
 
 /*===========================================================================*/
+/*Coverage Css Start*/
+/*===========================================================================*/
+
+.coverage {
+	background-image: url('../images/republica.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 150px 0;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+/* .coverage:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+} */
+
+.coverage .container {
+	position: relative;
+	z-index: 1;
+}
+
+/*===========================================================================*/
 /*Product Css Start*/
 /*===========================================================================*/
 .product-section {
-	float: left;
-	width: 100%;
-	padding: 100px 0 50px 0;
+	display: flex;
+	max-width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-top: 200px;
+	/* float: left; */
+	/* width: 80%;
+	padding: 10px 0 10px 0;
 	position: relative;
+	margin-top: 200px; */
+}
+
+.product-section .custom-tabs img {
+	border-radius: 100%;
+	width: 85px;
+	height: 75px;
+	;
 }
 
 /* .product-section:before {
@@ -922,28 +973,24 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 }
 
 /* Reemplaza tu bloque actual por este: */
-.product-section .product-box:hover .thumb img {
-	/* 1. Zoom controlado hacia adelante (1.1 es 10% más grande) */
+/* .product-section .product-box:hover .thumb img {
 	transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 
-	/* 2. Brillo máximo para el producto */
 	opacity: 1 !important;
 
-	/* 3. Sombra profunda para dar efecto de "elevación" */
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 
-	/* 4. Asegura que la sombra no se corte */
 	position: relative;
 	z-index: 10;
-}
+} */
 
 .product-section .product-box {
 	position: relative;
 	/* Necesario para que el :before y :after se alineen aquí */
-	padding: 12px 9px;
-	margin-bottom: 50px;
+	/* padding: 12px 9px; */
+	/* margin-bottom: 50px; */
 	background: #fff;
 }
 
@@ -988,7 +1035,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	/* Quitamos el float para que no rompa el diseño de 2x2 */
 	width: 100%;
 	text-align: right;
-	margin: 15px 0;
+	margin: 5px 0;
 	position: relative;
 	z-index: 9;
 }
@@ -996,7 +1043,6 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 .product-section .product-box .thumb {
 	width: 100%;
 	/* Ocupa todo el ancho disponible de la columna */
-	height: 300px;
 	/* Ajusta esta altura a tu gusto (ej. 250px o 300px) */
 	overflow: hidden;
 	/* ESTO ES VITAL: Corta cualquier parte de la imagen que se salga */
@@ -1010,15 +1056,15 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 }
 
 .product-section .product-box .thumb img {
-	width: 100%;
+	width: 300px;
 	/* Fuerza a la imagen a ser tan ancha como el cuadro */
-	height: 100%;
+	height: 200px;
 	/* Fuerza a la imagen a ser tan alta como el cuadro */
-	object-fit: cover;
+	/* object-fit: fill; */
 	/* Recorta la imagen para que llene el espacio sin deformarse */
-	object-position: bottom;
+	/* object-position: bottom;
 	display: block;
-	transition: transform 0.5s ease;
+	transition: transform 0.5s ease; */
 	/* Para que el zoom de "resaltar" sea suave */
 }
 
@@ -1055,6 +1101,11 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	position: relative;
 	z-index: 9;
 	font-size: 20px;
+	text-align: center;
+}
+
+.category-section {
+	margin-bottom: 60px;
 }
 
 /* .product-section .product-box h4 {
@@ -1097,9 +1148,9 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	float: right;
 }
 
-.product-space {
+/* .product-space {
 	padding: 0 0 50px 0;
-}
+} */
 
 .product-space:before {
 	content: '';
@@ -1170,12 +1221,11 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 /*===========================================================================*/
 /*Parallax Css Start*/
 /*===========================================================================*/
-/* .parallax-section {
+.parallax-section {
 	float: left;
 	width: 100%;
-	background: #000 url(../images/parallax-bg.png) no-repeat left top/cover;
-	padding: 90px 0;
-} */
+	padding: 50px 0;
+}
 
 .parallax-bg-2 {
 	background: url(../images/parallax-bg-2.jpg) no-repeat left top;
@@ -1473,7 +1523,7 @@ strong.parallax-logo {
 .partnet-section {
 	float: left;
 	width: 100%;
-	padding: 70px 0;
+	padding: 20px 0;
 	background: #fff;
 }
 
@@ -1506,7 +1556,7 @@ strong.parallax-logo {
 #footer {
 	float: left;
 	width: 100%;
-	background: #424242
+	background: #292828
 }
 
 .footer-section-1 {
@@ -1744,9 +1794,9 @@ strong.logo-footer {
 }
 
 #inner-banner h1 {
-	font: italic 700 100px/100px "Aller";
+	font: italic 500 50px/50px "Aller";
 	color: #fff;
-	margin: 0 0 10px 0;
+	margin: 0 0 0px 0;
 }
 
 #inner-banner strong.title {
@@ -2020,40 +2070,112 @@ strong.logo-footer {
 /*===========================================================================*/
 /*Contact Section Css Start*/
 /*===========================================================================*/
-.contact-section {
-	float: left;
+/* Contenedor principal con Parallax */
+.contact-section.product-space {
+	display: flex;
+	flex-direction: column;
+	/* Esto pone el título arriba y el collage abajo */
+	align-items: center;
+	/* Centra ambos elementos horizontalmente */
 	width: 100%;
-	margin: -100px 0 0 0;
-	position: relative;
 }
 
-.contact-section iframe {
+.heading-white h2 {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+
+.contact-section {
 	width: 100%;
-	height: 700px;
+	position: relative;
+	background: url('../images/black.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.contact-collage {
+	padding: 0px;
+	width: 100%;
+	position: relative;
+	background: url('../images/black.jpg') no-repeat center center fixed;
+	background-size: cover;
+	justify-content: center;
+}
+
+/* El contenedor que agrupa las tarjetas */
+.number-box {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+	/* Centra las tarjetas en la pantalla */
+	width: 95%;
+	max-width: 1200px;
+	background: transparent;
+	/* Quitamos el fondo blanco de aquí */
+}
+
+/* La tarjeta individual: Compacta y con ancho limitado */
+.contact-card {
+	background: #eeeded;
+	display: flex;
+	flex-direction: row;
+	/* Texto izquierda, Mapa derecha */
+	align-items: center;
+	padding: 20px;
+	flex: 0 1 500px;
+	/* IMPORTANTE: No crece más de 500px */
+	min-height: 250px;
+	border-radius: 5px;
+	/* box-shadow: 0 10px 20px rgba(0,0,0,0.3); */
+}
+
+/* Columna de datos */
+.contact-info-side {
+	flex: 1;
+	padding-right: 15px;
+}
+
+.contact-info-side h3 {
+	color: #b32025;
+	/* Rojo de tu logo */
+	margin-bottom: 5px;
+	font-size: 1.2rem;
+}
+
+/* Columna del mapa */
+.contact-map-side {
+	flex: 1;
+	height: 180px;
+	/* Altura fija para que no se vea estirado */
+}
+
+.contact-map-side iframe {
+	width: 100%;
+	height: 100%;
 	border: 0;
 }
 
-.number-box {
-	margin: 0 auto;
-	display: block;
-	width: 1140px;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	border: 2px solid;
-	background: url(../images/number-bg.jpg) no-repeat left bottom;
-	padding: 81px 0;
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -80px;
+.row-map {
+	width: 90%;
+	margin-top: 20px;
 }
 
-.number-box strong.number {
-	display: block;
-	text-align: center;
-	font: 400 100px/100px 'Open Sans', sans-serif;
-	color: #222;
+/* Ajuste para móviles */
+@media (max-width: 600px) {
+	.contact-card {
+		flex-direction: column;
+		flex: 1 1 100%;
+	}
+
+	.contact-map-side {
+		width: 100%;
+		margin-top: 15px;
+	}
 }
 
 /*===========================================================================*/
@@ -2739,6 +2861,10 @@ a.btn-style-1,
 	margin-bottom: 40px;
 }
 
+.mt-30 {
+	margin-top: 30px;
+}
+
 /* Estilos para Iconos en Pestañas */
 /* Estilos para Iconos y Hover en Pestañas */
 .custom-tabs>li>a:hover {
@@ -2807,5 +2933,193 @@ a.btn-style-1,
 	.product-list-box .thumb {
 		margin-bottom: 20px;
 		padding-right: 0;
+	}
+}
+
+/* Fix para alinear correctamente los productos de diferente altura en el grid */
+.tab-content .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Desactivar los pseudos de Bootstrap que pueden interferir con flex */
+.tab-content .row:before,
+.tab-content .row:after {
+	display: none;
+}
+
+/* Estilos para la Página de Contacto */
+/* .contact-card {
+    background: #fff;
+    padding: 40px;
+    height: 100%;
+    border-radius: 8px;
+    border-left: 5px solid #c02d2d;
+	max-width: 100%;
+} */
+
+.contact-card h3 {
+	color: #c02d2d;
+	margin-bottom: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.contact-name {
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: #333;
+}
+
+.contact-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-list li {
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: #555;
+	display: flex;
+	align-items: flex-start;
+}
+
+.contact-list li i {
+	width: 40px;
+	color: #c02d2d;
+	font-size: 24px;
+	margin-right: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.map-container iframe {
+	width: 100%;
+	height: 300px;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.collage-item img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 8px;
+	/* transition: transform 0.3s ease; */
+	/* box-shadow: 0 5px 15px rgba(0,0,0,0.1); */
+}
+
+/* .collage-item img:hover {
+    transform: scale(1.03);
+} */
+
+/* .contact-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    height: 100%;
+} */
+
+.contact-info-side {
+	flex: 1;
+	/* Ocupa el 50% */
+}
+
+.contact-map-side {
+	flex: 1;
+	/* Ocupa el otro 50% */
+}
+
+.map-container iframe {
+	width: 100%;
+	height: 100%;
+	min-height: 180px;
+	border-radius: 8px;
+	border: none;
+}
+
+/* En celulares, se pone un elemento arriba del otro */
+@media (max-width: 768px) {
+	.contact-card {
+		flex-direction: column;
+	}
+}
+
+.collage-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* 3 columnas iguales */
+	grid-auto-rows: 250px;
+	/* Altura base de cada "piso" */
+	gap: 15px;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.collage-item {
+	overflow: hidden;
+	position: relative;
+}
+
+.collage-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: 5px;
+}
+
+
+.item-grande {
+	grid-column: span 2;
+	/* Ocupa 2 columnas de ancho */
+	grid-row: span 2;
+	/* Ocupa 2 filas de alto */
+}
+
+.item-largo {
+	grid-column: span 2;
+	/* Ocupa 2 columnas de ancho */
+}
+
+.item-alto {
+	grid-row: span 2;
+	/* Ocupa 2 filas de alto */
+}
+
+/* En móvil todo a una columna */
+@media (max-width: 768px) {
+	.collage-container {
+		grid-template-columns: 1fr;
+		grid-auto-rows: auto;
+	}
+
+	.item-grande,
+	.item-largo,
+	.item-alto {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+}
+
+/* Ajuste para que en tablets se vean de 2 en 2 y en móvil de 1 en 1 */
+@media (max-width: 992px) {
+	.collage-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 576px) {
+	.collage-container {
+		grid-template-columns: 1fr;
 	}
 }
