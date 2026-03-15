@@ -1,0 +1,10 @@
+# Instrucciones para todos los robots (Google, Bing, etc.)
+User-agent: *
+Allow: /
+
+# No es necesario que los buscadores indexen tus archivos de diseño
+Disallow: /css/
+Disallow: /js/
+
+# Ruta de tu mapa del sitio (Cámbialo por tu dominio real si es distinto)
+Sitemap: https://www.yakalimentos.com.mx/sitemap.xml
