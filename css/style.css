@@ -615,6 +615,9 @@ strong.logo {
 	display: block;
 	margin: 0 auto 10px;
 }
+.img-responsive {
+	margin-top: 16px;
+}
 
 /* #banner .caption {
 	text-align: center;
@@ -817,7 +820,7 @@ strong.logo {
 	margin: 0 0 0 110px;
 }
 
-.butcher-about .thumb {
+/* .butcher-about .thumb {
 	background-image: url('../images/our.jpeg');
 	background-size: cover;
 	background-position: center;
@@ -825,11 +828,11 @@ strong.logo {
 	width: 80%;
 	height: 400px;
 	border-radius: 5px;
-}
+} */
 
 .butcher-about .thumb img {
-	display: none;
-	width: 60%;
+	display: flex;
+	width: 100%;
 	height: 500px;
 	margin: 0 auto;
 }
