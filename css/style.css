@@ -133,11 +133,16 @@ body p {
 	margin: 0 0 20px 0;
 }
 
-strong.subheading {
+strong.subheading,
+h3.subheading {
 	display: block;
 	font: 400 35px/35px 'Open Sans', cursive;
 	padding: 0 0 20px 0;
 	color: #fff
+}
+
+.butcher-about h3.about-company-heading {
+	margin-top: 0;
 }
 
 .btn-row {
@@ -633,7 +638,7 @@ strong.logo {
 } */
 
 #banner .caption h1 {
-	font: 700 60px/70px 'Aller', cursive;
+	font: 700 88px/1.08 'Aller', cursive;
 	color: #fff;
 	display: block;
 	text-align: right;
@@ -694,19 +699,20 @@ strong.logo {
 	display: block;
 	height: 100vh;
 	min-height: 600px;
-
+	overflow: hidden;
 }
 
-/* .banner-overlay::after {
+.banner-overlay::after {
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(9, 9, 9, 0.6);
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.35) 45%, transparent 100%);
 	z-index: 1;
-} */
+	pointer-events: none;
+}
 
 #home-banner .caption {
 	z-index: 10 !important;
@@ -740,11 +746,6 @@ strong.logo {
 @media (max-width: 767px) {
 	.banner-overlay {
 		background-position: left;
-	}
-
-	#banner .caption h1 {
-		float: left;
-		margin-bottom: 250px;
 	}
 }
 
@@ -820,6 +821,18 @@ strong.logo {
 	margin: 0 0 0 110px;
 }
 
+.butcher-about .about-cert-aside {
+	text-align: center;
+	padding-top: 24px;
+}
+
+@media (min-width: 768px) {
+	.butcher-about .about-cert-aside {
+		text-align: right;
+		padding-top: 0;
+	}
+}
+
 /* .butcher-about .thumb {
 	background-image: url('../images/our.jpeg');
 	background-size: cover;
@@ -835,6 +848,28 @@ strong.logo {
 	width: 100%;
 	height: 500px;
 	margin: 0 auto;
+}
+
+/* History image: fade-in on scroll (theme_script.js adds classes) */
+@keyframes aboutHistoryFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.butcher-about .about-history-thumb.about-history-animate {
+	opacity: 0;
+}
+
+.butcher-about .about-history-thumb.about-history-animate.in-view {
+	animation: aboutHistoryFadeIn 1.05s ease-out forwards;
+}
+
+.butcher-about .about-history-thumb.about-history-no-motion {
+	opacity: 1;
 }
 
 /*===========================================================================*/
@@ -1311,33 +1346,47 @@ strong.parallax-logo {
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 14%, transparent 75%);
 }
 
-.text-overlay {
+.team-box-overlay .text-overlay {
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	left: 0;
 	width: 100%;
+	height: 100%;
 	padding: 20px;
 	z-index: 10;
 	color: #ffffff;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
-.text-overlay h3 {
+.team-box-overlay .text-overlay h3 {
 	font-size: 20px;
+	line-height: 1.2;
 	color: #ff0000;
 	text-transform: uppercase;
-	margin-bottom: 5px;
+	margin: 0 0 0.35em 0;
 	font-weight: bold;
 }
 
-.text-overlay p {
+.team-box-overlay .text-overlay p {
 	font-size: 14px;
 	line-height: 1.2;
 	margin: 0;
 	color: #ddd;
+	/* Same vertical band for body text so all four h3 sit on the same baseline row */
+	min-height: 7.5em;
 }
 
 .team-box-overlay:hover .thumb img {
 	transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+	.team-box-overlay .text-overlay p {
+		min-height: 9em;
+	}
 }
 
 .team-section {

@@ -71,9 +71,13 @@ strong.logo {
 #banner .caption img {
 	display: none;
 }
+#banner .caption .container {
+	text-align: center;
+}
 #banner .caption h1 {
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 46px;
+	line-height: 1.2;
+	text-align: center;
 }
 #banner .owl-theme .owl-controls .owl-nav [class*="owl-"] {
 	display: none !important;
@@ -351,7 +355,8 @@ body h2 {
 .text-style-2 .thumb {
 	margin-bottom: 20px;
 }
-strong.subheading {
+strong.subheading,
+h3.subheading {
 	font-size: 40px;
 }
 .team-section h2 {
@@ -418,9 +423,13 @@ strong.logo {
 	line-height: 20px;
 	padding: 0;
 }
+#banner .caption .container {
+	text-align: center;
+}
 #banner .caption h1 {
-	font-size: 30px;
-	line-height: 30px;
+	font-size: 38px;
+	line-height: 1.2;
+	text-align: center;
 }
 #banner .caption strong.title-2 {
 	font-size: 16px;
