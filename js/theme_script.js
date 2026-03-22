@@ -1,27 +1,8 @@
 jQuery(document).ready(function ($) {
     "use strict";
-    //Home Banner
-    // if ($('#home-banner').length) {
-    //     $('#home-banner').owlCarousel({
-    //         loop: true,
-    //         dots: false,
-    //         nav: true,
-    //         items: 1,
-    //         autoplay: true,
-    //         smartSpeed: 2000,
-    //         animateOut: 'flipOutX',
-    //         animateIn: 'fadeIn',
-    //         URLhashListener: true,
-    //         autoplayHoverPause: false,
-
-
-    //     });
-    // }
 
     $(document).ready(function () {
-        // Tu código de scroll que ya tienes...
 
-        // Lógica para el texto que se escribe solo
         const ciudades = ["Durango", "Culiacán", "Hermosillo", "Mazatlán"];
         let i = 0;
         let j = 0;
@@ -47,10 +28,9 @@ jQuery(document).ready(function ($) {
             }
         }
 
-        type(); // Inicia el efecto
+        type();
     });
 
-    //Back To Top
     if ($('.scrollToTop').length) {
         $(window).scroll(function () {
             "use strict";
@@ -61,7 +41,6 @@ jQuery(document).ready(function ($) {
             }
         });
 
-        //Click event to scroll to top
         $('.scrollToTop').on('click', function (e) {
             $('html, body').animate({
                 scrollTop: 0
@@ -71,7 +50,6 @@ jQuery(document).ready(function ($) {
     }
 
 
-    //ISOTOPE GALLERY ELITE
     if ($(".gallery-metro-2 .isotope").length) {
         var $container = $('.gallery-metro-2 .isotope');
         $container.isotope({
@@ -94,6 +72,38 @@ jQuery(document).ready(function ($) {
 
 
     //Scroll
+
+
+    if ($('.defaultCountdown').length) {
+        var austDay = new Date();
+        austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+        $('.defaultCountdown').countdown({
+            until: austDay
+        });
+        $('#year').text(austDay.getFullYear());
+    }
+
+    // Función para manejar el estado del header y el logo al hacer scroll
+    function handleHeaderState() {
+        if ($('.head-row-2').hasClass('header-static')) return;
+
+        // Verificar la posición del scroll
+        if ($(window).scrollTop() > 50) {
+            // Si está ABAJO (> 50px)
+            $('.head-row-2').addClass('head-row-2-scroll');
+            $('strong.logo').removeClass('logo-no-show'); // Muestra el logo
+        } else {
+            // Si está ARRIBA (<= 50px)
+            $('.head-row-2').removeClass('head-row-2-scroll');
+            $('strong.logo').addClass('logo-no-show'); // Oculta el logo
+        }
+    }
+
+    // 1. Ejecuta la función tan pronto como el DOM esté listo para evitar el parpadeo.
+    handleHeaderState();
+    // 2. Vuelve a ejecutar la función en cada evento de scroll para el comportamiento normal.
+    $(window).on('scroll', handleHeaderState);
+
     if ($('#content-3dtd').length) {
         $(window).on('load', function (e) {
             "use strict";
@@ -105,50 +115,22 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    //Coming Soon
-    if ($('.defaultCountdown').length) {
-        var austDay = new Date();
-        austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
-        $('.defaultCountdown').countdown({
-            until: austDay
-        });
-        $('#year').text(austDay.getFullYear());
-    }
-
-    $(window).on('scroll', function () {
-        if ($('.head-row-2').hasClass('header-static')) return;
-        if ($(window).scrollTop() > 50) {
-            $('.head-row-2').addClass('head-row-2-scroll');
-        } else {
-            console.log('entra')
-            $('.head-row-2').removeClass('head-row-2-scroll');
-        }
-    });
-
-    // Lógica para "Ver Detalle" en Productos
-    $('.view-detail').on('click', function() {
+    $('.view-detail').on('click', function () {
         var $this = $(this);
         var title = $this.data('title');
         var desc = $this.data('desc');
         var img = $this.data('img');
         var origin = $this.data('origin');
-        
-        // Buscar el contenedor de detalle dentro de la misma pestaña activa
+
         var $pane = $this.closest('.tab-pane');
         var $detailBox = $pane.find('.product-list-box');
-        
-        // Actualizar contenido con efecto suave
+
         $detailBox.hide().fadeIn(500);
         $detailBox.find('.detail-title').text(title);
         $detailBox.find('.detail-desc').text(desc);
         $detailBox.find('.detail-img').attr('src', img);
         $detailBox.find('.detail-origin').html('<strong>Origen:</strong> ' + origin);
-        
-        // Actualizar enlace de WhatsApp
-        var waText = "Me interesa cotizar " + title;
-        $detailBox.find('.detail-whatsapp').attr('href', 'https://wa.me/526677607282?text=' + encodeURIComponent(waText));
 
-        // Scroll suave hacia el detalle
         $('html, body').animate({
             scrollTop: $detailBox.offset().top - 150
         }, 500);

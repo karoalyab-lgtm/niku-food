@@ -49,6 +49,9 @@
 strong.logo {
 	margin: 0;
 }
+strong.logo-no-show {
+	display: block;
+}
 .head-row-2 .navbar-inverse {
 	width: 100%;
 }
@@ -93,6 +96,9 @@ strong.logo {
 }
 body h2 {
 	margin-bottom: 30px;
+	font-size: 32px;
+	line-height: 1.2;
+	text-align: center;
 }
 .rate-list .container-fluid {
 	padding: 0 15px;
@@ -109,6 +115,9 @@ body h2 {
 }
 .product-section .product-box .thumb img {
 	float: none;
+}
+.product-section {
+	margin-top: 30px;
 }
 .product-section .product-box .thumb {
 	text-align: center;

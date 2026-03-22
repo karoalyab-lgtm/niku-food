@@ -322,7 +322,15 @@ strong.logo {
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	/* margin-left: 20px; */
+
+}
+
+.center-logo {
+	margin-right: 127px;
+}
+
+strong.logo-no-show {
+	display: none;
 }
 
 .head-row-2 {
@@ -618,7 +626,7 @@ strong.logo {
 #banner .caption img {
 	width: auto;
 	display: block;
-	margin: 0 auto 10px;
+	margin: 0 0 10px auto;
 }
 .img-responsive {
 	margin-top: 16px;
@@ -638,11 +646,11 @@ strong.logo {
 } */
 
 #banner .caption h1 {
-	font: 700 88px/1.08 'Aller', cursive;
+	font: 700 70px/1.08 'Aller', cursive;
 	color: #fff;
 	display: block;
 	text-align: right;
-	margin: 0 0 10px 0;
+	margin: 0 auto 10px;
 }
 
 #banner .caption strong.title-2 {
