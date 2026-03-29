@@ -997,12 +997,7 @@ strong.logo-no-show {
 	max-width: 100%;
 	align-items: center;
 	justify-content: center;
-	margin-top: 200px;
-	/* float: left; */
-	/* width: 80%;
-	padding: 10px 0 10px 0;
-	position: relative;
-	margin-top: 200px; */
+	margin-top: 130px;
 }
 
 .product-section .custom-tabs img {
@@ -1012,15 +1007,9 @@ strong.logo-no-show {
 	;
 }
 
-/* .product-section:before {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 100px;
-	background: url(../images/bloog-clot-img-2.png) no-repeat left top;
-	width: 393px;
-	height: 585px;
-} */
+.container .heading-space h2 {
+	text-align: center;
+}
 
 .product-section .product-box {
 	float: left;
@@ -1029,51 +1018,11 @@ strong.logo-no-show {
 	margin-bottom: 50px;
 }
 
-/* Reemplaza tu bloque actual por este: */
-/* .product-section .product-box:hover .thumb img {
-	transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-
-	opacity: 1 !important;
-
-	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-
-	position: relative;
-	z-index: 10;
-} */
-
 .product-section .product-box {
 	position: relative;
-	/* Necesario para que el :before y :after se alineen aquí */
-	/* padding: 12px 9px; */
-	/* margin-bottom: 50px; */
 	background: #fff;
 }
 
-/* .product-section .product-box:before {
-	content: '';
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 90%;
-	height: 100%;
-	border: 1px solid #c02d2d;
-	border-left: 0;
-	z-index: 1;
-} */
-
-/* .product-section .product-box:after {
-	content: '';
-	position: absolute;
-	left: 40%;
-	top: 0;
-	height: 50px;
-	border-left: 1px solid #7c0d0d;
-	z-index: 1;
-} */
-
-/* Ajuste de los textos para que queden sobre la decoración */
 .product-section .product-box strong.subheading {
 	display: block;
 	padding: 0;
@@ -1081,7 +1030,6 @@ strong.logo-no-show {
 	z-index: 9;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
-	/* O la que uses para títulos */
 }
 
 .product-section .product-box h4 {
@@ -1089,7 +1037,6 @@ strong.logo-no-show {
 	color: #222;
 	text-transform: uppercase;
 	float: none;
-	/* Quitamos el float para que no rompa el diseño de 2x2 */
 	width: 100%;
 	text-align: right;
 	margin: 5px 0;
@@ -1099,50 +1046,16 @@ strong.logo-no-show {
 
 .product-section .product-box .thumb {
 	width: 100%;
-	/* Ocupa todo el ancho disponible de la columna */
-	/* Ajusta esta altura a tu gusto (ej. 250px o 300px) */
 	overflow: hidden;
-	/* ESTO ES VITAL: Corta cualquier parte de la imagen que se salga */
 	position: relative;
 	z-index: 5;
-	/* Para que quede por debajo del texto pero visible */
 	border-radius: 4px;
-	/* Opcional: un toque suave en las esquinas */
 	margin: 20px 0;
-	/* Espacio para que no pegue con el título y el h4 */
 }
 
 .product-section .product-box .thumb img {
 	width: 300px;
-	/* Fuerza a la imagen a ser tan ancha como el cuadro */
 	height: 200px;
-	/* Fuerza a la imagen a ser tan alta como el cuadro */
-	/* object-fit: fill; */
-	/* Recorta la imagen para que llene el espacio sin deformarse */
-	/* object-position: bottom;
-	display: block;
-	transition: transform 0.5s ease; */
-	/* Para que el zoom de "resaltar" sea suave */
-}
-
-/* .product-section .product-box:before {
-	content: '';
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 262px;
-	height: 225px;
-	border: 1px solid #c02d2d;
-	border-left: 0;
-} */
-
-/* .product-section .product-box:after {
-	content: '';
-	position: absolute;
-	left: 100px;
-	top: 0;
-	height: 30px;
-	border-left: 1px solid #7c0d0d;
 }
 
 .product-section .product-box strong.subheading {
@@ -1383,7 +1296,6 @@ strong.parallax-logo {
 	line-height: 1.2;
 	margin: 0;
 	color: #ddd;
-	/* Same vertical band for body text so all four h3 sit on the same baseline row */
 	min-height: 7.5em;
 }
 
@@ -2952,6 +2864,17 @@ a.btn-style-1,
 .product-list-box .text-col {
 	flex: 0 0 60%;
 	max-width: 60%;
+}
+
+.detail-origin strong {
+    color: #c02d2d;
+}
+
+.origin-text-highlight {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff !important;
 }
 
 @media (max-width: 767px) {
