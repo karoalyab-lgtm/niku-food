@@ -2138,6 +2138,15 @@ strong.logo-footer {
 		margin-top: 15px;
 	}
 
+	.product-section .nav-tabs img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.product-box h3 {
+		text-align: center;
+	}
+
 
 }
 
