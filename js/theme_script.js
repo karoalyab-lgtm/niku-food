@@ -1,6 +1,27 @@
 jQuery(document).ready(function ($) {
     "use strict";
 
+    var $preloader = $('.preloader');
+
+    function hidePreloader() {
+        if (!$preloader.length || $preloader.hasClass('is-hidden')) {
+            return;
+        }
+
+        $preloader.addClass('is-hidden');
+        $('body').removeClass('is-loading');
+
+        window.setTimeout(function () {
+            $preloader.remove();
+        }, 500);
+    }
+
+    $(window).on('load', function () {
+        window.setTimeout(hidePreloader, 250);
+    });
+
+    window.setTimeout(hidePreloader, 2200);
+
     $(document).ready(function () {
 
         const ciudades = ["Durango", "Culiacán", "Hermosillo", "Mazatlán"];
