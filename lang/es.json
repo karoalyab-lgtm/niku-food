@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "home": {
+      "title": "Carnes Yak | Distribuidora de Carne Premium en México",
+      "description": "Líderes en distribución de carne premium en México. Ofrecemos cortes de alta calidad con cobertura nacional en Culiacán, Durango, Hermosillo y Mazatlán.",
+      "keywords": "carne premium, distribuidora de carne, cortes de carne México, Carnes Yak, Niku Alimentos"
+    },
+    "products": {
+      "title": "Catálogo de Productos | Carnes Yak - Cortes Premium",
+      "description": "Explora nuestro catálogo completo de Res, Cerdo, Pollo y Pescado. Distribución de cortes premium con cobertura nacional. Calidad garantizada para tu negocio o mesa."
+    },
+    "contact": {
+      "title": "Contacto | Carnes Yak - Contacto",
+      "description": "Visítanos en nuestras sucursales de Culiacán, Durango, Hermosillo y Mazatlán. Atención personalizada y distribución de carne premium."
+    }
+  },
+  "common": {
+    "nav": {
+      "home": "Inicio",
+      "products": "Productos",
+      "contact": "Contacto",
+      "toggle": "Abrir navegación"
+    },
+    "whatsapp": {
+      "tooltip": "¡Haz tu pedido aquí!",
+      "aria": "Chat de WhatsApp para pedidos"
+    },
+    "footer": {
+      "description": "Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta su mesa.",
+      "links": "Enlaces",
+      "contactHours": "Contacto y Horarios",
+      "scheduleLabel": "Horario:",
+      "scheduleValue": "Lunes a Sábado: 7:00 am - 3:00 pm",
+      "coverageLabel": "Cobertura:",
+      "coverageValue": "Culiacán | Durango | Hermosillo | Mazatlán | Bajío",
+      "emailLabel": "Email:",
+      "copyright": "© 2026 Carnes Yak. Todos los derechos reservados."
+    },
+    "language": {
+      "label": "Idioma"
+    }
+  },
+  "home": {
+    "hero": {
+      "titleHtml": "<span style=\"color:#E31E24\">Carne premium</span> <br> desde el origen"
+    },
+    "about": {
+      "titleHtml": "Quiénes <span>Somos</span>",
+      "imageAlt": "Historia y trayectoria de Niku Alimentos",
+      "company": "Niku alimentos S.A de C.V",
+      "paragraph1": "Hace más de 10 años, Niku Alimentos nació con un objetivo muy claro: brindar a cada cliente exactamente lo que necesita para hacer crecer su negocio. Desde entonces, hemos construido una forma de trabajo basada en la cercanía, el servicio y la capacidad de adaptación.",
+      "paragraph2": "A lo largo de este tiempo, hemos reunido marcas reconocidas de productos cárnicos, seleccionadas por su calidad y prestigio. Hoy continuamos evolucionando con la mirada puesta en el futuro, manteniendo nuestra esencia: calidad, servicio y soluciones reales.",
+      "cta": "Ver productos",
+      "certificateAlt": "certificado de calidad"
+    },
+    "features": {
+      "titleHtml": "Qué <span>Hacemos</span>",
+      "qualityTitle": "Calidad Garantizada",
+      "qualityText": "Seleccionamos cuidadosamente productos que cumplen con los más altos estándares de higiene y sabor.",
+      "distributionTitle": "Distribución Eficiente",
+      "distributionText": "Red de distribución sólida que asegura que tu producto llegue a tiempo y en perfectas condiciones.",
+      "serviceTitle": "Atención Personalizada",
+      "serviceText": "Nos adaptamos a las necesidades específicas de tu negocio, brindando soluciones a medida."
+    },
+    "coverage": {
+      "titleHtml": "Cobertura <span>Nacional</span>",
+      "lead": "Líderes en distribución cárnica con presencia en toda la República Mexicana.",
+      "text": "En Yak Alimentos, llevamos la máxima calidad y frescura de nuestros productos hasta cualquier rincón del país, garantizando que tu negocio cuente con el respaldo de una logística líder, puntual y eficiente en cada entrega."
+    },
+    "process": {
+      "titleHtml": "Conoce nuestro <span>proceso y calidad</span>"
+    },
+    "steps": {
+      "originTitle": "Origen",
+      "originText": "Criamos nuestro propio ganado bajo estrictos estándares de bienestar animal y alimentación controlada.",
+      "processingTitle": "Procesamiento",
+      "processingText": "En nuestras instalaciones cada producto pasa por rigurosos controles de calidad e higiene.",
+      "storageTitle": "Almacenamiento",
+      "storageText": "Contamos con más de 1,000 toneladas disponibles en todo momento.",
+      "deliveryTitle": "Entrega",
+      "deliveryText": "Nuestras unidades de entrega cuentan con un sistema avanzado de refrigeración que garantiza que el producto llegue en óptimas condiciones."
+    }
+  },
+  "products": {
+    "headingHtml": "Selección de productos <br><span>nacionales e internacionales</span>",
+    "tabs": {
+      "pork": "Cerdo",
+      "beef": "Res",
+      "chicken": "Pollo",
+      "fish": "Pescado"
+    },
+    "items": {
+      "pressedPorkRinds": "Chicharron prensado",
+      "bonelessLeg": "Pierna sin hueso",
+      "frontFeet": "Manitas",
+      "hindFeet": "Patitas",
+      "brain": "Sesos de cerdo",
+      "heart": "Corazón de cerdo",
+      "neckBones": "Hueso de pescuezo de cerdo",
+      "salivaryGland": "Glandula salival de cerdo",
+      "snout": "Trompa de cerdo",
+      "stomach": "Estomago",
+      "tongue": "Lengua de cerdo",
+      "uteri": "Utero de cerdo",
+      "backRibs": "Costillas de cerdo",
+      "mediumSpareribs": "Costillas de cerdo",
+      "fullBrisket": "Corbata corte completo",
+      "ribEye": "Rib eye",
+      "tBone": "T-Bone",
+      "skirtSteak": "Arrachera",
+      "topSirloin": "Top Sirloin",
+      "newYork": "New York",
+      "round": "Pulpa",
+      "beefRibs": "Costillar de res",
+      "chuck": "Diezmillo",
+      "shankFillet": "Filete de caña",
+      "marrow": "Tuetano",
+      "chickenBreast": "Pechuga de pollo",
+      "legQuarter": "Pierna y muslo",
+      "thighs": "Muslos de pollo",
+      "chickenLeg": "Pierna de pollo",
+      "wholeChicken": "Pollo entero",
+      "tilapia": "Tilapia"
+    }
+  },
+  "contact": {
+    "heading": "Contactanos",
+    "lead": "Escríbenos o visítanos en nuestras sucursales para recibir atención personalizada.",
+    "imageAlt": "contacto"
+  }
+}

@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Carnes Yak | Distribuidora de Carne Premium en México</title>
+  <title data-i18n="meta.home.title">Carnes Yak | Distribuidora de Carne Premium en México</title>
   <meta name="description"
+    data-i18n-content="meta.home.description"
     content="Líderes en distribución de carne premium en México. Ofrecemos cortes de alta calidad con cobertura nacional en Culiacán, Durango, Hermosillo y Mazatlán.">
   <meta name="keywords"
+    data-i18n-content="meta.home.keywords"
     content="carne premium, distribuidora de carne, cortes de carne México, Carnes Yak, Niku Alimentos">
   <!-- Css Files Start -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -44,15 +46,20 @@
           <nav class="navbar navbar-inverse">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
+                aria-expanded="false" aria-controls="navbar"> <span class="sr-only" data-i18n="common.nav.toggle">Toggle navigation</span> <span
                   class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav" id="nav">
-                <li class="active"><a href="index.html">Inicio</a></li>
-                <li><a href="product.html">Productos</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li class="active"><a href="index.html" data-i18n="common.nav.home">Inicio</a></li>
+                <li><a href="product.html" data-i18n="common.nav.products">Productos</a></li>
+                <li><a href="contact.html" data-i18n="common.nav.contact">Contacto</a></li>
               </ul>
+              <div class="language-switcher" role="group" aria-label="Language switcher">
+                <span class="language-switcher-label" data-i18n="common.language.label">Idioma</span>
+                <button type="button" class="language-switcher-btn" data-lang-switch="es" aria-pressed="true">ES</button>
+                <button type="button" class="language-switcher-btn" data-lang-switch="en" aria-pressed="false">EN</button>
+              </div>
             </div>
           </nav>
         </div>
@@ -63,9 +70,9 @@
     <!--BANNER START-->
 
     <!--WHATSAPP CHAT-->
-    <a href="https://wa.link/jv3dho" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat de WhatsApp para pedidos">
+    <a href="https://wa.link/jv3dho" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat de WhatsApp para pedidos" data-i18n-aria-label="common.whatsapp.aria">
       <i class="fa fa-whatsapp"></i>
-      <span class="tooltip-wa">¡Haz tu pedido aquí!</span>
+      <span class="tooltip-wa" data-i18n="common.whatsapp.tooltip">¡Haz tu pedido aquí!</span>
     </a>
 
     <!--BANNER START-->
@@ -77,7 +84,7 @@
         <div class="container">
           <img loading="lazy" src="images/logo-yak.jpeg" alt="logo-yak"
           height="200">
-          <h1><span style="color:#E31E24">Carne premium</span> <br> desde el origen</h1>
+          <h1 data-i18n-html="home.hero.titleHtml"><span style="color:#E31E24">Carne premium</span> <br> desde el origen</h1>
         </div>
       </div>
     </div>
@@ -89,32 +96,32 @@
       <section class="butcher-about">
         <div class="container">
           <div class="heading-space text-center">
-            <h2>Quiénes <span>Somos</span></h2>
+            <h2 data-i18n-html="home.about.titleHtml">Quiénes <span>Somos</span></h2>
           </div>
           <div class="row">
             <div class="col-md-6 col-sm-12">
               <div class="thumb mb-30 about-history-thumb">
-                <img src="./images/history.jpeg" alt="Historia y trayectoria de Niku Alimentos" loading="lazy" />
+                <img src="./images/history.jpeg" alt="Historia y trayectoria de Niku Alimentos" loading="lazy" data-i18n-alt="home.about.imageAlt" />
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
-              <h3 class="subheading about-company-heading">Niku alimentos S.A de C.V</h3>
+              <h3 class="subheading about-company-heading" data-i18n="home.about.company">Niku alimentos S.A de C.V</h3>
               <div class="row about-cert-row">
                 <div class="col-sm-8 col-xs-12">
                   <div class="text-col">
-                    <p>Hace más de 10 años, Niku Alimentos nació con un objetivo muy claro:
+                    <p data-i18n="home.about.paragraph1">Hace más de 10 años, Niku Alimentos nació con un objetivo muy claro:
                       brindar a cada cliente exactamente lo que necesita para hacer crecer su negocio.
                       Desde entonces, hemos construido una forma de trabajo basada en la cercanía, el servicio y la
                       capacidad de adaptación.</p>
-                    <p>A lo largo de este tiempo, hemos reunido marcas reconocidas de productos cárnicos, seleccionadas por
+                    <p data-i18n="home.about.paragraph2">A lo largo de este tiempo, hemos reunido marcas reconocidas de productos cárnicos, seleccionadas por
                       su calidad y prestigio.
                       Hoy continuamos evolucionando con la mirada puesta en el futuro, manteniendo nuestra esencia: calidad,
                       servicio y soluciones reales.</p>
                   </div>
-                  <a class="btn-style-1" href="product.html">Ver productos</a>
+                  <a class="btn-style-1" href="product.html" data-i18n="home.about.cta">Ver productos</a>
                 </div>
                 <div class="col-sm-4 col-xs-12 about-cert-aside">
-                  <img src="images/certificado2.png" loading="lazy" alt="certificado de calidad" class="img-responsive" width="150" height="100" />
+                  <img src="images/certificado2.png" loading="lazy" alt="certificado de calidad" class="img-responsive" width="150" height="100" data-i18n-alt="home.about.certificateAlt" />
                 </div>
               </div>
             </div>
@@ -123,22 +130,22 @@
           <!-- Qué Hacemos Section -->
           <div class="row mt-50">
             <div class="heading-space text-center mt-50">
-              <h2 style="margin-bottom: 10px !important;">Qué <span>Hacemos</span></h2>
+              <h2 style="margin-bottom: 10px !important;" data-i18n-html="home.features.titleHtml">Qué <span>Hacemos</span></h2>
             </div>
             <div class="col-md-4 col-sm-4 text-center feature-box">
               <div class="icon-holder"><i class="fa fa-check-circle"></i></div>
-              <h3>Calidad Garantizada</h3>
-              <p>Seleccionamos cuidadosamente productos que cumplen con los más altos estándares de higiene y sabor.</p>
+              <h3 data-i18n="home.features.qualityTitle">Calidad Garantizada</h3>
+              <p data-i18n="home.features.qualityText">Seleccionamos cuidadosamente productos que cumplen con los más altos estándares de higiene y sabor.</p>
             </div>
             <div class="col-md-4 col-sm-4 text-center feature-box">
               <div class="icon-holder"><i class="fa fa-truck"></i></div>
-              <h3>Distribución Eficiente</h3>
-              <p>Red de distribución sólida que asegura que tu producto llegue a tiempo y en perfectas condiciones.</p>
+              <h3 data-i18n="home.features.distributionTitle">Distribución Eficiente</h3>
+              <p data-i18n="home.features.distributionText">Red de distribución sólida que asegura que tu producto llegue a tiempo y en perfectas condiciones.</p>
             </div>
             <div class="col-md-4 col-sm-4 text-center feature-box">
               <div class="icon-holder"><i class="fa fa-users"></i></div>
-              <h3>Atención Personalizada</h3>
-              <p>Nos adaptamos a las necesidades específicas de tu negocio, brindando soluciones a medida.</p>
+              <h3 data-i18n="home.features.serviceTitle">Atención Personalizada</h3>
+              <p data-i18n="home.features.serviceText">Nos adaptamos a las necesidades específicas de tu negocio, brindando soluciones a medida.</p>
             </div>
           </div>
         </div>
@@ -147,10 +154,10 @@
       <section class="coverage">
         <div class="container">
           <div class="heading-space text-center">
-            <h2 style="color: #fff; margin-bottom: 50px !important;">Cobertura <span>Nacional</span></h2>
-            <p style="color: #fff; font-size: 30px; line-height: 1.2; font-weight: bold;">Líderes en distribución cárnica con presencia en
+            <h2 style="color: #fff; margin-bottom: 50px !important;" data-i18n-html="home.coverage.titleHtml">Cobertura <span>Nacional</span></h2>
+            <p style="color: #fff; font-size: 30px; line-height: 1.2; font-weight: bold;" data-i18n="home.coverage.lead">Líderes en distribución cárnica con presencia en
               toda la República Mexicana.</p>
-            <p style="color: #ddd; font-size: 18px;">En Yak Alimentos, llevamos la máxima calidad y frescura de nuestros
+            <p style="color: #ddd; font-size: 18px;" data-i18n="home.coverage.text">En Yak Alimentos, llevamos la máxima calidad y frescura de nuestros
               productos hasta cualquier rincón del país, garantizando que tu negocio cuente con el respaldo de una
               logística líder, puntual y eficiente en cada entrega.</p>
           </div>
@@ -160,7 +167,7 @@
       <!--PARALLAX-SECTION START-->
       <section class="parallax-section">
         <div class="heading-space text-center">
-          <h2 style="margin-bottom: 50px !important;" >Conoce nuestro <span>proceso y calidad</span></h2>
+          <h2 style="margin-bottom: 50px !important;" data-i18n-html="home.process.titleHtml">Conoce nuestro <span>proceso y calidad</span></h2>
         </div>
         <div class="container">
           <video width="100%" height="100%" controls>
@@ -180,8 +187,8 @@
                 <div class="thumb">
                   <img src="images/origin-pork.png" alt="carne de cerdo" loading="lazy">
                   <div class="text-overlay">
-                    <h3>Origen</h3>
-                    <p>Criamos nuestro propio ganado bajo estrictos estándares de bienestar animal y alimentación
+                    <h3 data-i18n="home.steps.originTitle">Origen</h3>
+                    <p data-i18n="home.steps.originText">Criamos nuestro propio ganado bajo estrictos estándares de bienestar animal y alimentación
                       controlada.</p>
                   </div>
                 </div>
@@ -193,8 +200,8 @@
                 <div class="thumb">
                   <img src="images/procesamiento.jpeg" alt="procesamientor" loading="lazy">
                   <div class="text-overlay">
-                    <h3>Procesamiento</h3>
-                    <p>En nuestras instalaciones cada producto pasa por rigurosos controles de calidad e higiene.</p>
+                    <h3 data-i18n="home.steps.processingTitle">Procesamiento</h3>
+                    <p data-i18n="home.steps.processingText">En nuestras instalaciones cada producto pasa por rigurosos controles de calidad e higiene.</p>
                   </div>
                 </div>
               </div>
@@ -205,8 +212,8 @@
                 <div class="thumb">
                   <img src="images/almacenamiento.jpeg" alt="almacenamiento" loading="lazy">
                   <div class="text-overlay">
-                    <h3>Almacenamiento</h3>
-                    <p>Contamos con más de 1,000 toneladas disponibles en todo momento.</p>
+                    <h3 data-i18n="home.steps.storageTitle">Almacenamiento</h3>
+                    <p data-i18n="home.steps.storageText">Contamos con más de 1,000 toneladas disponibles en todo momento.</p>
                   </div>
                 </div>
               </div>
@@ -217,8 +224,8 @@
                 <div class="thumb">
                   <img src="images/entrega.jpeg" alt="entrega" loading="lazy">
                   <div class="text-overlay">
-                    <h3>Entrega</h3>
-                    <p>Nuestras unidades de entrega cuentan con un sistema avanzado de refrigeración que garantiza que
+                    <h3 data-i18n="home.steps.deliveryTitle">Entrega</h3>
+                    <p data-i18n="home.steps.deliveryText">Nuestras unidades de entrega cuentan con un sistema avanzado de refrigeración que garantiza que
                       el producto llegue en óptimas condiciones.</p>
                   </div>
                 </div>
@@ -242,8 +249,8 @@
               <div class="footer-box">
                 <h3 style="color: #c02d2d; margin-bottom: 15px; font-weight: 700;">CARNES YAK</h3>
                 <p style="color: #ccc; line-height: 1.6;">
-                  Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta su
-                  mesa.
+                  <span data-i18n="common.footer.description">Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta su
+                  mesa.</span>
                 </p>
 
               </div>
@@ -251,15 +258,15 @@
 
             <div class="col-md-3 col-sm-6">
               <div class="footer-menu">
-                <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;">Enlaces</h3>
+                <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;" data-i18n="common.footer.links">Enlaces</h3>
                 <nav>
                   <ul style="list-style: none; padding: 0;">
                     <li style="margin-bottom: 10px;"><a href="index.html" style="color: #ccc;"><i
-                          class="fa fa-angle-right"></i> Inicio</a></li>
+                          class="fa fa-angle-right"></i> <span data-i18n="common.nav.home">Inicio</span></a></li>
                     <li style="margin-bottom: 10px;"><a href="product.html" style="color: #ccc;"><i
-                          class="fa fa-angle-right"></i> Productos</a></li>
+                          class="fa fa-angle-right"></i> <span data-i18n="common.nav.products">Productos</span></a></li>
                     <li style="margin-bottom: 10px;"><a href="contact.html" style="color: #ccc;"><i
-                          class="fa fa-angle-right"></i> Contacto</a></li>
+                          class="fa fa-angle-right"></i> <span data-i18n="common.nav.contact">Contacto</span></a></li>
                   </ul>
                 </nav>
               </div>
@@ -267,18 +274,18 @@
 
             <div class="col-md-5 col-sm-6">
               <div class="footer-box">
-                <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;">Contacto y Horarios</h3>
+                <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;" data-i18n="common.footer.contactHours">Contacto y Horarios</h3>
                 <p style="color: #ccc; margin-bottom: 8px;">
                   <i class="fa fa-clock-o" style="color: #c02d2d;"></i>
-                  <strong>Horario:</strong> Lunes a Sábado: 7:00 am - 3:00 pm
+                  <strong data-i18n="common.footer.scheduleLabel">Horario:</strong> <span data-i18n="common.footer.scheduleValue">Lunes a Sábado: 7:00 am - 3:00 pm</span>
                 </p>
                 <p style="color: #ccc; margin-bottom: 8px;">
                   <i class="fa fa-map-marker" style="color: #c02d2d;"></i>
-                  <strong>Cobertura:</strong> Culiacán | Durango | Hermosillo | Mazatlán | Bajío
+                  <strong data-i18n="common.footer.coverageLabel">Cobertura:</strong> <span data-i18n="common.footer.coverageValue">Culiacán | Durango | Hermosillo | Mazatlán | Bajío</span>
                 </p>
                 <p style="color: #ccc;">
                   <i class="fa fa-envelope" style="color: #c02d2d;"></i>
-                  <strong>Email:</strong> hola@nikualimentos.com
+                  <strong data-i18n="common.footer.emailLabel">Email:</strong> hola@nikualimentos.com
                 </p>
               </div>
             </div>
@@ -288,7 +295,7 @@
       </section>
 
       <div style="text-align: center; border-top: 1px solid #222; margin-top: 40px; padding-top: 20px;">
-        <p style="color: #555; font-size: 13px;">&copy; 2026 Carnes Yak. Todos los derechos reservados.</p>
+        <p style="color: #555; font-size: 13px;" data-i18n="common.footer.copyright">&copy; 2026 Carnes Yak. Todos los derechos reservados.</p>
       </div>
     </footer>
     <!--FOOTER END-->
@@ -301,6 +308,7 @@
   <script src="js/bootstrap.min.js"></script>
   <!--OWL CAROUSEL JS-->
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/i18n.js"></script>
   <!--CUSTOM js-->
   <script src="js/theme_script.js"></script>
 </body>

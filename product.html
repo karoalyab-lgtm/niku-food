@@ -1,12 +1,13 @@
 <!doctype html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catálogo de Productos | Carnes Yak - Cortes Premium</title>
+  <title data-i18n="meta.products.title">Catálogo de Productos | Carnes Yak - Cortes Premium</title>
   <meta name="description"
+    data-i18n-content="meta.products.description"
     content="Explora nuestro catálogo completo de Res, Cerdo, Pollo y Pescado. Distribución de cortes premium con cobertura nacional. Calidad garantizada para tu negocio o mesa.">
   <!-- Css Files Start -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -30,15 +31,20 @@
           <nav class="navbar navbar-inverse">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
+                aria-expanded="false" aria-controls="navbar"> <span class="sr-only" data-i18n="common.nav.toggle">Toggle navigation</span> <span
                   class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav" id="nav">
-                <li class="active"><a href="index.html">Inicio</a></li>
-                <li><a href="product.html">Productos</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li class="active"><a href="index.html" data-i18n="common.nav.home">Inicio</a></li>
+                <li><a href="product.html" data-i18n="common.nav.products">Productos</a></li>
+                <li><a href="contact.html" data-i18n="common.nav.contact">Contacto</a></li>
               </ul>
+              <div class="language-switcher" role="group" aria-label="Language switcher">
+                <span class="language-switcher-label" data-i18n="common.language.label">Idioma</span>
+                <button type="button" class="language-switcher-btn" data-lang-switch="es" aria-pressed="true">ES</button>
+                <button type="button" class="language-switcher-btn" data-lang-switch="en" aria-pressed="false">EN</button>
+              </div>
             </div>
           </nav>
         </div>
@@ -47,9 +53,9 @@
     <!--HEADER END-->
     <!--WHATSAPP CHAT-->
     <a href="https://wa.me/526677607282?text=Hola!%20Me%20interesa%20cotizar%20cortes%20de%20carne%20con%20Yak"
-      class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+      class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat de WhatsApp para pedidos" data-i18n-aria-label="common.whatsapp.aria">
       <i class="fa fa-whatsapp"></i>
-      <span class="tooltip-wa">¡Haz tu pedido aquí!</span>
+      <span class="tooltip-wa" data-i18n="common.whatsapp.tooltip">¡Haz tu pedido aquí!</span>
     </a>
 
 
@@ -60,7 +66,7 @@
       <section class="product-section product-space" id="products">
         <div class="container">
           <div class="heading-space">
-            <h2>Selección de productos <br><span>nacionales e internacionales</span></br></h2>
+            <h2 data-i18n-html="products.headingHtml">Selección de productos <br><span>nacionales e internacionales</span></h2>
           </div>
 
           <!-- Nav tabs con Iconos -->
@@ -68,22 +74,22 @@
             <ul class="nav nav-tabs custom-tabs" role="tablist">
               <li role="presentation" class="active">
                 <a href="#cerdo" aria-controls="cerdo" role="tab" data-toggle="tab">
-                  <img class="icon" src="images/icono-cerdo.png" alt="cerdo" loading="lazy" /> Cerdo
+                  <img class="icon" src="images/icono-cerdo.png" alt="cerdo" loading="lazy" /> <span data-i18n="products.tabs.pork">Cerdo</span>
                 </a>
               </li>
               <li role="presentation">
                 <a href="#res" aria-controls="res" role="tab" data-toggle="tab">
-                  <img class="icon" src="images/icon-res.png" alt="cerdo" loading="lazy" /> Res
+                  <img class="icon" src="images/icon-res.png" alt="cerdo" loading="lazy" /> <span data-i18n="products.tabs.beef">Res</span>
                 </a>
               </li>
               <li role="presentation">
                 <a href="#pollo" aria-controls="pollo" role="tab" data-toggle="tab">
-                  <img class="icon" src="images/pollito.png" alt="pollo" loading="lazy" /> Pollo
+                  <img class="icon" src="images/pollito.png" alt="pollo" loading="lazy" /> <span data-i18n="products.tabs.chicken">Pollo</span>
                 </a>
               </li>
               <li role="presentation">
                 <a href="#pescado" aria-controls="pescado" role="tab" data-toggle="tab">
-                  <img class="icon" src="images/pecesito.png" alt="pescado" loading="lazy" /> Pescado
+                  <img class="icon" src="images/pecesito.png" alt="pescado" loading="lazy" /> <span data-i18n="products.tabs.fish">Pescado</span>
                 </a>
               </li>
             </ul>
@@ -98,96 +104,96 @@
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/chicharron.png" alt="Chicharron prensado" loading="lazy" />
                     </div>
-                    <h3>Chicharron prensado</h3>
+                    <h3 data-i18n="products.items.pressedPorkRinds">Chicharron prensado</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/boneles.png" alt="Pierna sin hueso" loading="lazy" /></div>
-                    <h3>Pierna sin hueso</h3>
+                    <h3 data-i18n="products.items.bonelessLeg">Pierna sin hueso</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/front-feet.png" alt="Manitas" loading="lazy" /></div>
-                    <h3>Manitas</h3>
+                    <h3 data-i18n="products.items.frontFeet">Manitas</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/hind-feet.png" alt="Patitas" loading="lazy" /></div>
-                    <h3>Patitas</h3>
+                    <h3 data-i18n="products.items.hindFeet">Patitas</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/brain.png" alt="Sesos de cerdo" loading="lazy" /></div>
-                    <h3>Sesos de cerdo</h3>
+                    <h3 data-i18n="products.items.brain">Sesos de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/heart.png" alt="Corazón de cerdo" loading="lazy" /></div>
-                    <h3>Corazón de cerdo</h3>
+                    <h3 data-i18n="products.items.heart">Corazón de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/bones.png" alt="Hueso de pescuezo de cerdo"
                         loading="lazy" /></div>
-                    <h3>Hueso de pescuezo de cerdo</h3>
+                    <h3 data-i18n="products.items.neckBones">Hueso de pescuezo de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/salivaly-gland.png" alt="Glandula salival de cerdo"
                         loading="lazy" /></div>
-                    <h3>Glandula salival de cerdo</h3>
+                    <h3 data-i18n="products.items.salivaryGland">Glandula salival de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/snout.png" alt="Trompa de cerdo" loading="lazy" /></div>
-                    <h3>Trompa de cerdo</h3>
+                    <h3 data-i18n="products.items.snout">Trompa de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/stomatch.png" alt="Estomago" loading="lazy" /></div>
-                    <h3>Estomago</h3>
+                    <h3 data-i18n="products.items.stomach">Estomago</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/tongue.png" alt="Lengua de cerdo" loading="lazy"></div>
-                    <h3>Lengua de cerdo</h3>
+                    <h3 data-i18n="products.items.tongue">Lengua de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/uteri.png" alt="Utero de cerdo" loading="lazy" /></div>
-                    <h3>Utero de cerdo</h3>
+                    <h3 data-i18n="products.items.uteri">Utero de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/backrib.png" alt="Costillas de cerdo" loading="lazy" />
                     </div>
-                    <h3>Costillas de cerdo</h3>
+                    <h3 data-i18n="products.items.backRibs">Costillas de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/medium-sparerib.png" alt="Costillas de cerdo"
                         loading="lazy" /></div>
-                    <h3>Costillas de cerdo</h3>
+                    <h3 data-i18n="products.items.mediumSpareribs">Costillas de cerdo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pork/full-brisket.png" alt="Corbata corte completo"
                         loading="lazy" /></div>
-                    <h3>Corbata corte completo</h3>
+                    <h3 data-i18n="products.items.fullBrisket">Corbata corte completo</h3>
                   </div>
                 </div>
               </div>
@@ -199,62 +205,62 @@
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/rib-eye.png" alt="rib eye" loading="lazy" /></div>
-                    <h3>Rib eye</h3>
+                    <h3 data-i18n="products.items.ribEye">Rib eye</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/T-bone.png" alt="t-bone" loading="lazy" /></div>
-                    <h3>T-Bone</h3>
+                    <h3 data-i18n="products.items.tBone">T-Bone</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/arrachera.png" alt="arrachera" loading="lazy" /></div>
-                    <h3>Arrachera</h3>
+                    <h3 data-i18n="products.items.skirtSteak">Arrachera</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/top-sirloin.png" alt="top sirloin" loading="lazy" /></div>
-                    <h3>Top Sirloin</h3>
+                    <h3 data-i18n="products.items.topSirloin">Top Sirloin</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/new-york.png" alt="new york" loading="lazy" /></div>
-                    <h3>New York</h3>
+                    <h3 data-i18n="products.items.newYork">New York</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/pulpa.png" alt="pulpa" loading="lazy" /></div>
-                    <h3>Pulpa</h3>
+                    <h3 data-i18n="products.items.round">Pulpa</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/costillar.png" alt="costillar" loading="lazy" /></div>
-                    <h3>Costillar de res</h3>
+                    <h3 data-i18n="products.items.beefRibs">Costillar de res</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/diesmillo.png" alt="diezmillo" loading="lazy" /></div>
-                    <h3>Diezmillo</h3>
+                    <h3 data-i18n="products.items.chuck">Diezmillo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/filete-caña.png" alt="Filete de caña" loading="lazy" />
                     </div>
-                    <h3>Filete de caña</h3>
+                    <h3 data-i18n="products.items.shankFillet">Filete de caña</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/beef/tuetano.png" alt="tuetano" loading="lazy" /></div>
-                    <h3>Tuetano</h3>
+                    <h3 data-i18n="products.items.marrow">Tuetano</h3>
                   </div>
                 </div>
               </div>
@@ -266,31 +272,31 @@
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pollo/pechuga.png" alt="Pechuga de Pollo"></div>
-                    <h3>Pechuga de pollo</h3>
+                    <h3 data-i18n="products.items.chickenBreast">Pechuga de pollo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pollo/pierna-muslo.png" alt="Pierna y Muslo"></div>
-                    <h3>Pierna y muslo</h3>
+                    <h3 data-i18n="products.items.legQuarter">Pierna y muslo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pollo/muslos.png" alt="Muslos de Pollo"></div>
-                    <h3>Muslos de pollo</h3>
+                    <h3 data-i18n="products.items.thighs">Muslos de pollo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pollo/pierna.png" alt="Muslos de Pollo"></div>
-                    <h3>Pierna de pollo</h3>
+                    <h3 data-i18n="products.items.chickenLeg">Pierna de pollo</h3>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/pollo/entero.png" alt="Pollo entero"></div>
-                    <h3>Pollo entero</h3>
+                    <h3 data-i18n="products.items.wholeChicken">Pollo entero</h3>
                   </div>
                 </div>
               </div>
@@ -302,7 +308,7 @@
                 <div class="col-md-4 col-sm-6">
                   <div class="product-box">
                     <div class="thumb"><img src="images/fish/tilapia.png" alt="Tilapia"></div>
-                    <h3>Tilapia</h3>
+                    <h3 data-i18n="products.items.tilapia">Tilapia</h3>
                   </div>
                 </div>
               </div>
@@ -322,24 +328,24 @@
                 <div class="footer-box">
                   <h3 style="color: #c02d2d; margin-bottom: 15px; font-weight: 700;">CARNES YAK</h3>
                   <p style="color: #ccc; line-height: 1.6;">
-                    Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta
-                    su mesa.
-                  </p>
+                  <span data-i18n="common.footer.description">Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta
+                    su mesa.</span>
+                </p>
 
                 </div>
               </div>
 
               <div class="col-md-3 col-sm-6">
                 <div class="footer-menu">
-                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;">Enlaces</h3>
+                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;" data-i18n="common.footer.links">Enlaces</h3>
                   <nav>
                     <ul style="list-style: none; padding: 0;">
                       <li style="margin-bottom: 10px;"><a href="index.html" style="color: #ccc;"><i
-                            class="fa fa-angle-right"></i> Inicio</a></li>
+                            class="fa fa-angle-right"></i> <span data-i18n="common.nav.home">Inicio</span></a></li>
                       <li style="margin-bottom: 10px;"><a href="product.html" style="color: #ccc;"><i
-                            class="fa fa-angle-right"></i> Productos</a></li>
+                            class="fa fa-angle-right"></i> <span data-i18n="common.nav.products">Productos</span></a></li>
                       <li style="margin-bottom: 10px;"><a href="contact.html" style="color: #ccc;"><i
-                            class="fa fa-angle-right"></i> Contacto</a></li>
+                            class="fa fa-angle-right"></i> <span data-i18n="common.nav.contact">Contacto</span></a></li>
                     </ul>
                   </nav>
                 </div>
@@ -347,18 +353,18 @@
 
               <div class="col-md-5 col-sm-6">
                 <div class="footer-box">
-                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;">Contacto y Horarios</h3>
+                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;" data-i18n="common.footer.contactHours">Contacto y Horarios</h3>
                   <p style="color: #ccc; margin-bottom: 8px;">
                     <i class="fa fa-clock-o" style="color: #c02d2d;"></i>
-                    <strong>Horario:</strong> Lunes a Sábado: 7:00 am - 3:00 pm
+                    <strong data-i18n="common.footer.scheduleLabel">Horario:</strong> <span data-i18n="common.footer.scheduleValue">Lunes a Sábado: 7:00 am - 3:00 pm</span>
                   </p>
                   <p style="color: #ccc; margin-bottom: 8px;">
                     <i class="fa fa-map-marker" style="color: #c02d2d;"></i>
-                    <strong>Cobertura:</strong> Culiacán | Durango | Hermosillo | Mazatlán | Bajío
+                    <strong data-i18n="common.footer.coverageLabel">Cobertura:</strong> <span data-i18n="common.footer.coverageValue">Culiacán | Durango | Hermosillo | Mazatlán | Bajío</span>
                   </p>
                   <p style="color: #ccc;">
                     <i class="fa fa-envelope" style="color: #c02d2d;"></i>
-                    <strong>Email:</strong> hola@nikualimentos.com
+                    <strong data-i18n="common.footer.emailLabel">Email:</strong> hola@nikualimentos.com
                   </p>
                 </div>
               </div>
@@ -368,7 +374,7 @@
         </section>
 
         <div style="text-align: center; border-top: 1px solid #222; margin-top: 40px; padding-top: 20px;">
-          <p style="color: #555; font-size: 13px;">&copy; 2026 Carnes Yak. Todos los derechos reservados.</p>
+          <p style="color: #555; font-size: 13px;" data-i18n="common.footer.copyright">&copy; 2026 Carnes Yak. Todos los derechos reservados.</p>
         </div>
       </footer>
       <!--FOOTER END-->
@@ -382,6 +388,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!--OWL CAROUSEL JS-->
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/i18n.js"></script>
     <!--CUSTOM js-->
     <script src="js/theme_script.js"></script>
 </body>

@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contacto | Carnes Yak - Contacto</title>
-<meta name="description" content="Visítanos en nuestras sucursales de Culiacán, Durango, Hermosillo y Mazatlán. Atención personalizada y distribución de carne premium.">
+<title data-i18n="meta.contact.title">Contacto | Carnes Yak - Contacto</title>
+<meta name="description" data-i18n-content="meta.contact.description" content="Visítanos en nuestras sucursales de Culiacán, Durango, Hermosillo y Mazatlán. Atención personalizada y distribución de carne premium.">
   <!-- Css Files Start -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -29,15 +29,20 @@
           <nav class="navbar navbar-inverse">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
+                aria-expanded="false" aria-controls="navbar"> <span class="sr-only" data-i18n="common.nav.toggle">Toggle navigation</span> <span
                   class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav" id="nav">
-                <li class="active"><a href="index.html">Inicio</a></li>
-                <li><a href="product.html">Productos</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li class="active"><a href="index.html" data-i18n="common.nav.home">Inicio</a></li>
+                <li><a href="product.html" data-i18n="common.nav.products">Productos</a></li>
+                <li><a href="contact.html" data-i18n="common.nav.contact">Contacto</a></li>
               </ul>
+              <div class="language-switcher" role="group" aria-label="Language switcher">
+                <span class="language-switcher-label" data-i18n="common.language.label">Idioma</span>
+                <button type="button" class="language-switcher-btn" data-lang-switch="es" aria-pressed="true">ES</button>
+                <button type="button" class="language-switcher-btn" data-lang-switch="en" aria-pressed="false">EN</button>
+              </div>
             </div>
           </nav>
         </div>
@@ -52,15 +57,15 @@
       <!--Contact SECTION START-->
       <section class="contact-section product-space" id="products">
         <div class="heading-white text-center">
-          <h2 >Contactanos</h2>
-          <p>Escríbenos o visítanos en nuestras sucursales para recibir atención personalizada.</p>
+          <h2 data-i18n="contact.heading">Contactanos</h2>
+          <p data-i18n="contact.lead">Escríbenos o visítanos en nuestras sucursales para recibir atención personalizada.</p>
         </div>
         <!-- <div class="heading-white text-center">
           <h2>Contactanos</h2>
         </div> -->
 
         <div class="col-md-6 mb-40 conteiner-card">
-          <img src="./images/contacto 3.png" alt="contacto" />
+          <img src="./images/contacto 3.png" alt="contacto" data-i18n-alt="contact.imageAlt" />
         </div>
 
         <div class="row-map">
@@ -206,24 +211,24 @@
                 <div class="footer-box">
                   <h3 style="color: #c02d2d; margin-bottom: 15px; font-weight: 700;">CARNES YAK</h3>
                   <p style="color: #ccc; line-height: 1.6;">
-                    Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta
-                    su mesa.
-                  </p>
+                  <span data-i18n="common.footer.description">Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta
+                    su mesa.</span>
+                </p>
 
                 </div>
               </div>
 
               <div class="col-md-3 col-sm-6">
                 <div class="footer-menu">
-                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;">Enlaces</h3>
+                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;" data-i18n="common.footer.links">Enlaces</h3>
                   <nav>
                     <ul style="list-style: none; padding: 0;">
                       <li style="margin-bottom: 10px;"><a href="index.html" style="color: #ccc;"><i
-                            class="fa fa-angle-right"></i> Inicio</a></li>
+                            class="fa fa-angle-right"></i> <span data-i18n="common.nav.home">Inicio</span></a></li>
                       <li style="margin-bottom: 10px;"><a href="product.html" style="color: #ccc;"><i
-                            class="fa fa-angle-right"></i> Productos</a></li>
+                            class="fa fa-angle-right"></i> <span data-i18n="common.nav.products">Productos</span></a></li>
                       <li style="margin-bottom: 10px;"><a href="contact.html" style="color: #ccc;"><i
-                            class="fa fa-angle-right"></i> Contacto</a></li>
+                            class="fa fa-angle-right"></i> <span data-i18n="common.nav.contact">Contacto</span></a></li>
                     </ul>
                   </nav>
                 </div>
@@ -231,18 +236,18 @@
 
               <div class="col-md-5 col-sm-6">
                 <div class="footer-box">
-                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;">Contacto y Horarios</h3>
+                  <h3 style="color: #fff; font-size: 18px; margin-bottom: 15px;" data-i18n="common.footer.contactHours">Contacto y Horarios</h3>
                   <p style="color: #ccc; margin-bottom: 8px;">
                     <i class="fa fa-clock-o" style="color: #c02d2d;"></i>
-                    <strong>Horario:</strong> Lunes a Sábado: 7:00 am - 3:00 pm
+                    <strong data-i18n="common.footer.scheduleLabel">Horario:</strong> <span data-i18n="common.footer.scheduleValue">Lunes a Sábado: 7:00 am - 3:00 pm</span>
                   </p>
                   <p style="color: #ccc; margin-bottom: 8px;">
                     <i class="fa fa-map-marker" style="color: #c02d2d;"></i>
-                    <strong>Cobertura:</strong> Culiacán | Durango | Hermosillo | Mazatlán | Bajío
+                    <strong data-i18n="common.footer.coverageLabel">Cobertura:</strong> <span data-i18n="common.footer.coverageValue">Culiacán | Durango | Hermosillo | Mazatlán | Bajío</span>
                   </p>
                   <p style="color: #ccc;">
                     <i class="fa fa-envelope" style="color: #c02d2d;"></i>
-                    <strong>Email:</strong> hola@nikualimentos.com
+                    <strong data-i18n="common.footer.emailLabel">Email:</strong> hola@nikualimentos.com
                   </p>
                 </div>
               </div>
@@ -252,7 +257,7 @@
         </section>
 
         <div style="text-align: center; border-top: 1px solid #222; margin-top: 40px; padding-top: 20px;">
-          <p style="color: #555; font-size: 13px;">&copy; 2026 Carnes Yak. Todos los derechos reservados.</p>
+          <p style="color: #555; font-size: 13px;" data-i18n="common.footer.copyright">&copy; 2026 Carnes Yak. Todos los derechos reservados.</p>
         </div>
       </footer>
       <!--FOOTER END-->
@@ -266,6 +271,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!--OWL CAROUSEL JS-->
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/i18n.js"></script>
     <!--CUSTOM js-->
     <script src="js/theme_script.js"></script>
 </body>

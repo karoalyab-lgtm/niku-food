@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "home": {
+      "title": "Carnes Yak | Premium Meat Distributor in Mexico",
+      "description": "Leaders in premium meat distribution in Mexico. We offer high-quality cuts with nationwide coverage in Culiacan, Durango, Hermosillo, and Mazatlan.",
+      "keywords": "premium meat, meat distributor, meat cuts Mexico, Carnes Yak, Niku Alimentos"
+    },
+    "products": {
+      "title": "Product Catalog | Carnes Yak - Premium Cuts",
+      "description": "Explore our full catalog of beef, pork, chicken, and fish. Premium cuts with nationwide distribution and guaranteed quality for your business or table."
+    },
+    "contact": {
+      "title": "Contact | Carnes Yak",
+      "description": "Visit our branches in Culiacan, Durango, Hermosillo, and Mazatlan. Personalized service and premium meat distribution."
+    }
+  },
+  "common": {
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "contact": "Contact",
+      "toggle": "Open navigation"
+    },
+    "whatsapp": {
+      "tooltip": "Place your order here!",
+      "aria": "WhatsApp chat for orders"
+    },
+    "footer": {
+      "description": "Leading suppliers of premium cuts. Quality, freshness, and flavor guaranteed from the source to your table.",
+      "links": "Links",
+      "contactHours": "Contact and Hours",
+      "scheduleLabel": "Hours:",
+      "scheduleValue": "Monday to Saturday: 7:00 am - 3:00 pm",
+      "coverageLabel": "Coverage:",
+      "coverageValue": "Culiacan | Durango | Hermosillo | Mazatlan | Bajio",
+      "emailLabel": "Email:",
+      "copyright": "© 2026 Carnes Yak. All rights reserved."
+    },
+    "language": {
+      "label": "Language"
+    }
+  },
+  "home": {
+    "hero": {
+      "titleHtml": "<span style=\"color:#E31E24\">Premium meat</span> <br> from the source"
+    },
+    "about": {
+      "titleHtml": "Who <span>We Are</span>",
+      "imageAlt": "History and trajectory of Niku Alimentos",
+      "company": "Niku Alimentos S.A. de C.V.",
+      "paragraph1": "More than 10 years ago, Niku Alimentos was born with a very clear goal: to provide every client exactly what they need to grow their business. Since then, we have built a way of working based on closeness, service, and adaptability.",
+      "paragraph2": "Over the years, we have brought together recognized meat product brands selected for their quality and prestige. Today we continue to evolve with an eye on the future while keeping our essence: quality, service, and real solutions.",
+      "cta": "View products",
+      "certificateAlt": "quality certificate"
+    },
+    "features": {
+      "titleHtml": "What <span>We Do</span>",
+      "qualityTitle": "Guaranteed Quality",
+      "qualityText": "We carefully select products that meet the highest standards of hygiene and flavor.",
+      "distributionTitle": "Efficient Distribution",
+      "distributionText": "A strong distribution network ensures your product arrives on time and in perfect condition.",
+      "serviceTitle": "Personalized Service",
+      "serviceText": "We adapt to the specific needs of your business, providing tailor-made solutions."
+    },
+    "coverage": {
+      "titleHtml": "Nationwide <span>Coverage</span>",
+      "lead": "Leaders in meat distribution with presence across the entire Mexican Republic.",
+      "text": "At Yak Alimentos, we bring the highest quality and freshness of our products to every corner of the country, ensuring your business has the support of punctual, efficient, and industry-leading logistics in every delivery."
+    },
+    "process": {
+      "titleHtml": "Learn about our <span>process and quality</span>"
+    },
+    "steps": {
+      "originTitle": "Origin",
+      "originText": "We raise our own livestock under strict animal welfare standards and controlled feeding.",
+      "processingTitle": "Processing",
+      "processingText": "In our facilities, every product goes through rigorous quality and hygiene controls.",
+      "storageTitle": "Storage",
+      "storageText": "We keep more than 1,000 tons available at all times.",
+      "deliveryTitle": "Delivery",
+      "deliveryText": "Our delivery units have an advanced refrigeration system that ensures the product arrives in optimal condition."
+    }
+  },
+  "products": {
+    "headingHtml": "Product selection <br><span>national and international</span>",
+    "tabs": {
+      "pork": "Pork",
+      "beef": "Beef",
+      "chicken": "Chicken",
+      "fish": "Fish"
+    },
+    "items": {
+      "pressedPorkRinds": "Pressed pork rinds",
+      "bonelessLeg": "Boneless leg",
+      "frontFeet": "Front feet",
+      "hindFeet": "Hind feet",
+      "brain": "Pork brains",
+      "heart": "Pork heart",
+      "neckBones": "Pork neck bones",
+      "salivaryGland": "Salivary gland",
+      "snout": "Pork snout",
+      "stomach": "Stomach",
+      "tongue": "Pork tongue",
+      "uteri": "Uteri",
+      "backRibs": "Pork ribs",
+      "mediumSpareribs": "Pork ribs",
+      "fullBrisket": "Full brisket tie cut",
+      "ribEye": "Rib eye",
+      "tBone": "T-Bone",
+      "skirtSteak": "Skirt steak",
+      "topSirloin": "Top Sirloin",
+      "newYork": "New York",
+      "round": "Round",
+      "beefRibs": "Beef ribs",
+      "chuck": "Chuck",
+      "shankFillet": "Shank fillet",
+      "marrow": "Marrow",
+      "chickenBreast": "Chicken breast",
+      "legQuarter": "Leg quarter",
+      "thighs": "Chicken thighs",
+      "chickenLeg": "Chicken leg",
+      "wholeChicken": "Whole chicken",
+      "tilapia": "Tilapia"
+    }
+  },
+  "contact": {
+    "heading": "Contact us",
+    "lead": "Write to us or visit one of our branches for personalized assistance.",
+    "imageAlt": "contact"
+  }
+}
