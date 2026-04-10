@@ -125,6 +125,51 @@ jQuery(document).ready(function ($) {
     // 2. Vuelve a ejecutar la función en cada evento de scroll para el comportamiento normal.
     $(window).on('scroll', handleHeaderState);
 
+    (function setupMobileMenu() {
+        var $navCollapse = $('#navbar');
+        if (!$navCollapse.length) {
+            return;
+        }
+
+        function isMobileMenu() {
+            return window.matchMedia('(max-width: 767px)').matches;
+        }
+
+        function closeMenu() {
+            if ($navCollapse.hasClass('in')) {
+                $navCollapse.collapse('hide');
+            } else {
+                $('body').removeClass('mobile-menu-open');
+            }
+        }
+
+        $navCollapse.on('shown.bs.collapse', function () {
+            if (isMobileMenu()) {
+                $('body').addClass('mobile-menu-open');
+            }
+        });
+
+        $navCollapse.on('hidden.bs.collapse', function () {
+            $('body').removeClass('mobile-menu-open');
+        });
+
+        $(document).on('click', '[data-mobile-menu-close]', function () {
+            closeMenu();
+        });
+
+        $navCollapse.find('a').on('click', function () {
+            if (isMobileMenu()) {
+                closeMenu();
+            }
+        });
+
+        $(window).on('resize', function () {
+            if (!isMobileMenu()) {
+                $('body').removeClass('mobile-menu-open');
+            }
+        });
+    })();
+
     if ($('#content-3dtd').length) {
         $(window).on('load', function (e) {
             "use strict";
