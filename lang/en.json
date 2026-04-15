@@ -28,6 +28,7 @@
     "footer": {
       "description": "Leading suppliers of premium cuts. Quality, freshness, and flavor guaranteed from the source to your table.",
       "links": "Links",
+      "linksAria": "Footer links",
       "contactHours": "Contact and Hours",
       "scheduleLabel": "Hours:",
       "scheduleValue": "Monday to Saturday: 7:00 am - 3:00 pm",
@@ -68,7 +69,21 @@
       "text": "At Yak Alimentos, we bring the highest quality and freshness of our products to every corner of the country, ensuring your business has the support of punctual, efficient, and industry-leading logistics in every delivery."
     },
     "process": {
-      "titleHtml": "Learn about our <span>process and quality</span>"
+      "eyebrow": "Yak Experience",
+      "titleHtml": "Learn about our <span>process and quality</span>",
+      "lead": "From the source to your operation, every step is designed to preserve quality, freshness, and consistency.",
+      "text": "We turned our brand video into a focused experience: open it, watch it, and get back to exploring the site without making the page feel heavy.",
+      "pillCold": "Cold chain",
+      "pillTraceability": "Traceability",
+      "pillCoverage": "Nationwide reach",
+      "mediaLabel": "Video walkthrough",
+      "buttonTitle": "Watch video",
+      "buttonHint": "Opens in an expanded view",
+      "buttonAria": "Open Yak process video",
+      "note": "A quick look at the quality, processing, and logistics behind every delivery.",
+      "modalTitle": "Yak process video",
+      "modalCloseAria": "Close video",
+      "videoFallback": "Your browser does not support video playback."
     },
     "steps": {
       "originTitle": "Origin",

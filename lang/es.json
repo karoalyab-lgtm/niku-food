@@ -28,6 +28,7 @@
     "footer": {
       "description": "Proveedores líderes de cortes premium. Calidad, frescura y sabor garantizados desde el origen hasta su mesa.",
       "links": "Enlaces",
+      "linksAria": "Enlaces del pie de página",
       "contactHours": "Contacto y Horarios",
       "scheduleLabel": "Horario:",
       "scheduleValue": "Lunes a Sábado: 7:00 am - 3:00 pm",
@@ -68,7 +69,20 @@
       "text": "En Yak Alimentos, llevamos la máxima calidad y frescura de nuestros productos hasta cualquier rincón del país, garantizando que tu negocio cuente con el respaldo de una logística líder, puntual y eficiente en cada entrega."
     },
     "process": {
-      "titleHtml": "Conoce nuestro <span>proceso y calidad</span>"
+      "eyebrow": "Experiencia Yak",
+      "titleHtml": "Conoce nuestro <span>proceso y calidad</span>",
+      "lead": "Del origen a tu operación, cada paso está diseñado para conservar calidad, frescura y consistencia.",
+      "text": "Convertimos nuestro video institucional en una experiencia puntual: entras, lo ves y regresas a seguir explorando el sitio sin que la página se sienta pesada.",
+      "pillCold": "Cadena fría",
+      "pillTraceability": "Trazabilidad",
+      "pillCoverage": "Cobertura nacional",
+      "mediaLabel": "Recorrido en video",
+      "buttonTitle": "Ver video",
+      "buttonHint": "Se abre en una vista ampliada",
+      "buttonAria": "Abrir video del proceso Yak",
+      "note": "Una mirada rápida a la calidad, el procesamiento y la logística que respaldan cada entrega.",
+      "modalCloseAria": "Cerrar video",
+      "videoFallback": "Tu navegador no soporta la reproducción de video."
     },
     "steps": {
       "originTitle": "Origen",
