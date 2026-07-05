@@ -49,23 +49,12 @@ Sidebar heading:	font:24px/24px 'BebasNeue', sans-serif;
 
 
  
-==> Wrapper   
 ==> Header
-==>	Butcher About
-==>	Rate List
 ==>	Product
 ==>	Section
-==> Team
-==> Newsletter
-==>	Partner
 ==> Footer
-==> Inner Banner
-==> About Text
-==> Error Page
-==> Coming Soon Page
 ==> Contact Section
 ==> Menu
-==> Outlets
 
 End of Table of Content Css End **/
 /*===========================================================================*/
@@ -201,7 +190,6 @@ body h2 span {
 }
 
 body h3 {
-	/* text-transform: uppercase; */
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 24px;
@@ -505,14 +493,11 @@ strong.logo-no-show {
 .head-row-2 {
 	position: fixed;
 	top: 0;
-	/* Asegúrate de tener el top en 0 */
 	left: 0;
 	right: 0;
-	/* En lugar de width: 100%, usa right: 0 */
 	z-index: 99;
 	transition: background-color 0.3s ease-in-out;
 	box-sizing: border-box;
-	/* Crucial para que paddings no sumen al ancho */
 	max-width: 100vw;
 	overflow-x: hidden;
 }
@@ -609,7 +594,6 @@ strong.logo-no-show {
 #nav li:last-child ul {
 	left: auto;
 	right: 0;
-	/* Hace que el último submenú se abra hacia la izquierda para no salirse */
 }
 
 #nav li ul li a:hover,
@@ -696,29 +680,22 @@ strong.logo-no-show {
 
 #nav li a {
 	transition: all 0.3s ease;
-	/* Suaviza el cambio de color */
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 0.5px;
 }
 
-/* 2. Efecto HOVER (Al pasar el mouse) */
 #nav li a:hover {
 	color: #ff0000 !important;
-	/* Cambia a Rojo Yak */
 	background: transparent !important;
-	/* Evita fondos grises de Bootstrap */
 	text-decoration: none;
 }
 
-/* 3. Efecto ACTIVE (La página donde estás actualmente) */
-/* Bootstrap usa la clase .active en el <li> */
 
 /*===========================================================================*/
 /*Whatsapp Css Start*/
 /*===========================================================================*/
 
-/* Estilos del botón flotante */
 .whatsapp-float {
 	position: fixed;
 	width: 70px;
@@ -726,7 +703,6 @@ strong.logo-no-show {
 	bottom: 40px;
 	right: 40px;
 	background-color: #25d366;
-	/* Verde WhatsApp */
 	color: #FFF !important;
 	border-radius: 50px;
 	text-align: center;
@@ -740,13 +716,11 @@ strong.logo-no-show {
 	transition: all 0.3s ease;
 }
 
-/* Efecto al pasar el mouse */
 .whatsapp-float:hover {
 	background-color: #128c7e;
 	transform: scale(1.1);
 }
 
-/* Tooltip (Texto de ayuda) */
 .tooltip-wa {
 	position: absolute;
 	right: 70px;
@@ -869,7 +843,6 @@ strong.logo-no-show {
 }
 
 .banner-overlay {
-	/* position: relative; */
 	position: relative;
 	background-image: url(../images/fondo\ 3.png);
 	background-size: cover;
@@ -906,22 +879,6 @@ strong.logo-no-show {
 	z-index: 0;
 }
 
-
-/* .banner-overlay {
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-} */
-
-/* .banner-overlay img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: center;
-	display: block;
-} */
-
-/* Ajuste para que en pantallas más pequeñas (como móviles) no sea tan alto */
 @media (max-width: 767px) {
 	.banner-overlay {
 		background-position: left;
@@ -1135,16 +1092,6 @@ strong.logo-no-show {
 	width: 100%;
 	position: relative;
 }
-
-/* .coverage:before {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
-} */
 
 .coverage .container {
 	position: relative;
@@ -1474,9 +1421,6 @@ strong.logo-no-show {
 	max-width: 360px;
 	padding: 28px;
 	border-radius: 5px;
-	/* background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 18px 45px rgba(0, 0, 0, 0.24); */
 }
 
 .process-media-card:before {
